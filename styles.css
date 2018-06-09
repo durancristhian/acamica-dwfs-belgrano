@@ -1,0 +1,159 @@
+:root {
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-size: 16px;
+    --main-color: #50f;
+    --quaternary-color: gold;
+    --secondary-color: rgb(255, 74, 110);
+    --space: 1rem;
+    --tertiary-color: rgba(0, 0, 0, 0.1);
+    --white: #fff;
+    --white-70: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (min-width: 30em) {
+    :root {
+        --font-size: 20px;
+        --space: 1.5rem;
+    }
+}
+
+::selection {
+    background-color: var(--quaternary-color);
+}
+
+::-moz-selection {
+    background-color: var(--quaternary-color);
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+a {
+    color: var(--main-color);
+    display: block;
+    transition: transform 0.2s ease-out;
+}
+
+a + a {
+    margin-top: calc(var(--space) / 2);
+}
+
+a:active,
+a:hover {
+    transform: translateX(calc(var(--space) / 2));
+}
+
+a:before {
+    display: inline-block;
+    margin-right: calc(var(--space) / 2);
+    vertical-align: middle;
+}
+
+a.download:before {
+    content: '⬇';
+}
+
+a.link:before {
+    content: '🔗';
+}
+
+a.media:before {
+    content: '🖼';
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 500;
+    text-shadow: 1px 1px 1px var(--tertiary-color);
+}
+
+h1 {
+    color: var(--white);
+    font-size: calc(var(--font-size) * 1.6);
+    margin: 0 0 var(--space) 0;
+    text-align: center;
+}
+
+h2 {
+    color: var(--white-70);
+    font-size: calc(var(--font-size) * 1.4);
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    color: var(--white);
+    font-size: calc(var(--font-size) * 1.2);
+    margin: 0;
+    padding: var(--space);
+}
+
+p {
+    margin: 0;
+}
+
+@keyframes background-animation {
+    0% {
+        background-color: var(--main-color);
+    }
+
+    100% {
+        background-color: var(--secondary-color);
+    }
+}
+
+.background-animation {
+    animation-name: background-animation;
+}
+
+.background-animation,
+.color-animation {
+    animation-direction: alternate;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--main-color);
+    }
+
+    100% {
+        color: var(--secondary-color);
+    }
+}
+
+.color-animation {
+    animation-name: color-animation;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.debug * {
+    box-shadow: 0 0 1px var(--quaternary-color);
+}
+
+.inner-container {
+    padding: calc(var(--space) * 2) var(--space);
+}
+
+.lesson {
+    margin: calc(var(--space) * 2) 0;
+}
+
+.lesson div:first-child {
+    margin-bottom: var(--space);
+}
+
+.lesson div:last-child {
+    padding-left: var(--space);
+}
