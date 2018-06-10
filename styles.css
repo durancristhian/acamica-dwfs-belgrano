@@ -52,6 +52,7 @@ a:before {
     display: inline-block;
     margin-right: calc(var(--space) / 2);
     vertical-align: middle;
+    width: var(--space);
 }
 
 a.download:before {
@@ -70,6 +71,11 @@ footer {
     background-color: #eee;
     border-top: 2px solid var(--border-color);
     text-align: center;
+}
+
+footer p {
+    margin-bottom: var(--space);
+    margin-top: 0;
 }
 
 h1,
@@ -99,6 +105,7 @@ h3 {
     font-size: calc(var(--font-size) * 1.2);
     margin: 0;
     padding: var(--space);
+    text-transform: uppercase;
 }
 
 header {
@@ -111,8 +118,7 @@ img {
 }
 
 p {
-    margin-bottom: var(--space);
-    margin-top: 0;
+    margin: calc(var(--space) * 2) 0;
 }
 
 @keyframes background-animation {
@@ -174,4 +180,9 @@ p {
 
 .lesson div:last-child {
     padding-left: var(--space);
+}
+
+.subtitle {
+    font-weight: bold;
+    text-transform: uppercase;
 }
