@@ -1,0 +1,21 @@
+{
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "public": true,
+  "static": {
+    "headers": [
+      {
+        "source": "**/*.*",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      }
+    ],
+    "trailingSlash": true
+  },
+  "type": "npm"
+}
