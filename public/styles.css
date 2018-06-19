@@ -137,7 +137,8 @@ img {
 }
 
 .background-animation,
-.color-animation {
+.color-animation,
+.img-container::after {
   animation-direction: alternate;
   animation-duration: 30s;
   animation-iteration-count: infinite;
@@ -165,6 +166,26 @@ img {
 
 .debug * {
   box-shadow: 0 0 1px var(--quaternary-color);
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container::after {
+  animation-name: background-animation;
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.2s ease-out;
+}
+
+.img-container:hover::after {
+  opacity: 0;
 }
 
 .inner-container {
