@@ -9,6 +9,7 @@ script:
   - echo 'Not implemented'
 before_deploy:
   - npm i now --no-save
+  - npm run clean-deploys
 deploy:
   provider: script
   script: npm run deploy
@@ -16,7 +17,6 @@ deploy:
   on:
     branch: master
 after_deploy:
-  - npm run clean-deploys
   - npm run scale
 env:
   matrix:
