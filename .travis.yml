@@ -16,8 +16,8 @@ deploy:
   on:
     branch: master
 after_deploy:
-  - npm run scale
   - npm run clean-deploys
+  - npm run scale
 env:
   matrix:
     - INSTANCE_NAME='acamica-dwfs-belgrano'
