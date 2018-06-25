@@ -7,6 +7,7 @@
   --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   --font-size: 16px;
+  --icon-size: 30px;
   --main-color: #50f;
   --quaternary-color: gold;
   --secondary-color: rgb(255, 74, 110);
@@ -138,7 +139,8 @@ img {
 
 .background-animation,
 .color-animation,
-.img-container::after {
+.img-container::after,
+.progress-bar::after {
   animation-direction: alternate;
   animation-duration: 30s;
   animation-iteration-count: infinite;
@@ -166,6 +168,17 @@ img {
 
 .debug * {
   box-shadow: 0 0 1px var(--quaternary-color);
+}
+
+.girl {
+  transform: scaleX(-1) translateX(50%);
+}
+
+.girl,
+.medal {
+  font-size: var(--icon-size);
+  position: absolute;
+  top: calc(-1 * var(--icon-size) * 1.5);
 }
 
 .img-container {
@@ -206,4 +219,34 @@ img {
 
 .lesson div:last-child p {
   margin-bottom: var(--space);
+}
+
+.medal {
+  right: calc(-1 * var(--icon-size) / 2);
+}
+
+.progress-bar {
+  background-color: var(--border-color);
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.progress-bar-container {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--border-color);
+  height: 1.5rem;
+  margin-bottom: calc(var(--space) * 2);
+  margin-top: calc(var(--space) * 3);
+  position: relative;
+}
+
+.progress-section {
+  margin-bottom: calc(var(--space) * 2);
+}
+
+.progress-section h4 {
+  margin: 0;
 }
