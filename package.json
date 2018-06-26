@@ -5,6 +5,7 @@
   "scripts": {
     "clean-deploys": "now rm $INSTANCE_NAME --token $NOW_TOKEN --yes",
     "deploy": "now alias $(now --name $INSTANCE_NAME -e NODE_ENV=production --npm --token $NOW_TOKEN) $INSTANCE_NAME --token=$NOW_TOKEN",
+    "scale": "now scale $INSTANCE_NAME'.now.sh' sfo 1 --token $NOW_TOKEN",
     "start": "serve public --single"
   },
   "repository": {
