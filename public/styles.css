@@ -144,6 +144,7 @@ img {
 
 .background-animation,
 .color-animation,
+.fill,
 .img-container::after,
 .progress-bar::after {
   animation-direction: alternate;
@@ -175,6 +176,10 @@ img {
   box-shadow: 0 0 1px var(--quaternary-color);
 }
 
+.error {
+  text-align: center;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -185,13 +190,24 @@ img {
   }
 }
 
-.error {
-  text-align: center;
-}
-
 .fade-in {
   animation-duration: 1s;
   animation-name: fadein;
+}
+
+@keyframes fill-animation {
+  0% {
+    text-shadow: 0 0 var(--main-color);
+  }
+
+  100% {
+    text-shadow: 0 0 var(--secondary-color);
+  }
+}
+
+.fill {
+  color: transparent;
+  animation-name: fill-animation;
 }
 
 .girl {
