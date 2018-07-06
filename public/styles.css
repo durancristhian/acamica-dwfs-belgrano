@@ -46,8 +46,8 @@ a + a {
   margin-top: calc(var(--space) / 2);
 }
 
-a:active,
-a:hover {
+a:not(.no-animate):active,
+a:not(.no-animate):hover {
   transform: translateX(calc(var(--space) / 2));
 }
 
@@ -67,7 +67,11 @@ a.link::before {
 }
 
 a.media::before {
-  content: '🖼';
+  content: '📸';
+}
+
+a.reload::before {
+  content: '🙊';
 }
 
 footer {
