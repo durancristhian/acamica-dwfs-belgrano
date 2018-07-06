@@ -1,0 +1,97 @@
+{
+  "general_information": [
+    {
+      "lessons_amount": 69
+    }
+  ],
+  "lessons": [
+    {
+      "name": "Clase 11",
+      "date": "4 de Julio, 2018",
+      "description": "Aprendimos más sobre funciones. Marcamos diferencia entre procedimientos (funciones que uso para \"hacer\" algo) de funciones (funciones que uso para \"devolver\" algo). Intentando mostrar ventajas de hacer funciones chicas y enfocadas en resolver solo 1 cosa, pero bien.",
+      "summary": "https://drive.google.com/open?id=1XPQvbDfjQ3_6Hw7GZNhpX37rRFgfN02S1QvXY86gxGE",
+      "multimedia": "https://drive.google.com/open?id=1t9yNaquuvZfVjHL-4av1TuTMMi45I-cg",
+      "resources": null
+    },
+    {
+      "name": "Clase 10",
+      "date": "2 de Julio, 2018",
+      "description": "Construimos una app contador para masterizar el concepto de estado en una aplicación y aprender sobre funciones, event listeners y como poder actualizar la UI por medio de JavaScript usando document.getElementById.",
+      "summary": "https://drive.google.com/open?id=1issBYOdHdukqMbRxoZ4m5Gap1fCK52rqRVz-M0rrj8k",
+      "multimedia": "https://drive.google.com/open?id=1mZ3PmaVoT9mnRqrNBkb-9OVM5WVqR7wg",
+      "resources": "https://drive.google.com/open?id=1LHVmrMFVRk57pe85MwhoTWDPiEUqo8xJ"
+    },
+    {
+      "name": "Clase 9",
+      "date": "27 de Junio, 2018",
+      "description": "Entender el rol que tiene JavaScript a la hora de construir aplicaciones web diferenciando la interfaz (HTML y CSS) del estado de la aplicación (JavaScript). Aprendimos a usar console.log, variables, tipos de datos, operadores y condicionales por medio de ejercicios.",
+      "summary": "https://drive.google.com/open?id=1zXZGF1AD4zc6giVz3GzjpZSQo0vNDLMSdPlvnS808JM",
+      "multimedia": "https://drive.google.com/open?id=1pBovCcgUhOzTv9ZewoUAQzQWmFcBLwTw",
+      "resources": null
+    },
+    {
+      "name": "Clase 8",
+      "date": "25 de Junio, 2018",
+      "description": "Repaso de conceptos de HTML y CSS a partir del proyecto CV donde también agregramos cambios en el proyecto de otra persona. Luego repasamos conceptos básicos de JavaScript como variables, parseInt y funciones.",
+      "summary": "https://drive.google.com/open?id=1SvusbZY9SnuMZTcVLslCS0nLh4Vjla54eG5f-hz3pyQ",
+      "multimedia": "https://drive.google.com/open?id=1wFIe_k5yO6_aaQ3-Zu3fM_SSEZgAI5Me",
+      "resources": "https://drive.google.com/open?id=1JKJYZKCmN3_Fuaxz5kik0mihN6rg4eWK"
+    },
+    {
+      "name": "Clase 7",
+      "date": "18 de Junio, 2018",
+      "description": "Primer acercamiento con JavaScript: Uso de prompt, console.log, variables, document.write y operadores en una pequeña aplicación que permitía conocer nuestro peso en la luna.",
+      "summary": "https://docs.google.com/document/d/1Co4ZCKOVu4t_eshGINdMYJm-Axe7iv-FE69om4sisAQ/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/open?id=1j_-PJfdfrYtNU4073yjig2ZW7fAuem6w",
+      "resources": "https://drive.google.com/open?id=1BSHX2kD90JHhjNx0qixxiiazLn5OZ4IJ"
+    },
+    {
+      "name": "Clase 6",
+      "date": "13 de Junio, 2018",
+      "description": "Posicionamiento en CSS. Vimos las distintas formas en las que podemos ubicar un elemento en la pantalla utilizando la propiedad position. También aprendimos sobre transition y transform.",
+      "summary": "https://docs.google.com/document/d/1S8sZt1P8l882_ZLr3OzqR6r5Br97yzuvRSSrCJAMYF4/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/open?id=1AmUd96r_m7BM9LZet6SKMhhDtElJMpXr",
+      "resources": "https://drive.google.com/open?id=18Blf8FbZFxkg_kNziQSoClik9naJZ8LB"
+    },
+    {
+      "name": "Clase 5",
+      "date": "11 de Junio, 2018",
+      "description": "Armado de columnas usando float. Aprendimos sobre como el navegador calcula el ancho y alto de los elementos entendiendo como funciona el modelo de caja en CSS.",
+      "summary": "https://docs.google.com/document/d/1_0XEHQcCSkpG0G-5LKaL0M71sPGc8_Dk4IMg5hYYhH4/edit?usp=sharing",
+      "multimedia": null,
+      "resources": "https://drive.google.com/open?id=1krNY1e3QVrWEEaPpARrMbJ-RJXriVdGP"
+    },
+    {
+      "name": "Clase 4",
+      "date": "6 de Junio, 2018",
+      "description": "Introducción a CSS. Estilos generales y específicos. Selectores básicos y especificidad.",
+      "summary": "https://drive.google.com/open?id=1CNgTGzbwzHAodgKjHK-2MKxUJy3ojZfV3_HaWkYYzos",
+      "multimedia": "https://drive.google.com/open?id=1MzaRmxrVtgqYFp0qard_vSMss_R-er_L",
+      "resources": "https://drive.google.com/open?id=1dlEcLwtvs2BRTGPVjuwpruV0R-eGcLx8"
+    },
+    {
+      "name": "Clase 3",
+      "date": "4 de Junio, 2018",
+      "description": "Profundizamos en HTML y practicamos para afianzar conceptos.",
+      "summary": "https://docs.google.com/document/d/1b_IZKaqfgSYbglTPhjDqii0Ag8gMa0avD46HH_3BVHI/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/open?id=1oY_jWwSnSkrflNiLabm_lypXm8ovUB06",
+      "resources": null
+    },
+    {
+      "name": "Clase 2",
+      "date": "30 de Mayo, 2018",
+      "description": "Introducción a las herramientas con las que vamos a trabajar: Editor de texto y Navegador. Creamos nuestra primera página con HTML y la subimos a internet usando 'now'.",
+      "summary": "https://docs.google.com/document/d/1zUXCJ44Nu2NSxI1Yow3_7NZvuSCLgtq0t9DLc29rAYk/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/open?id=1CFj7c4N6ycsnQd1-snd9IynhGLNC5PtP",
+      "resources": null
+    },
+    {
+      "name": "Clase 1",
+      "date": "28 de Mayo, 2018",
+      "description": "Introducción al contexto teórico y técnico de la carrera.",
+      "summary": "https://docs.google.com/document/d/1XNE9K2xR2UJTF7hOYka32I9klbs6hV3CA3N7CEzFliA/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/open?id=1ft7FmAR5YDoD1G6rKeYJmOELFGYBcxet",
+      "resources": null
+    }
+  ]
+}
