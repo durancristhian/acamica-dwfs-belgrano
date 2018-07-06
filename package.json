@@ -1,6 +1,6 @@
 {
   "name": "acamica-dwfs-belgrano",
-  "version": "10.1.0",
+  "version": "11.0.0",
   "description": "acamica-dwfs-belgrano",
   "scripts": {
     "clean-deploys": "now rm $INSTANCE_NAME --token $NOW_TOKEN --yes",
