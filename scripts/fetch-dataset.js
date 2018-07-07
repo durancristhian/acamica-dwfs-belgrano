@@ -27,4 +27,8 @@ gsheets
 
     console.log('dataset generated successfully 😎');
   })
-  .catch(console.error);
+  .catch((error) => {
+    console.error(error);
+
+    process.exit(1);
+  });

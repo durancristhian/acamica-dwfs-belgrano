@@ -5,6 +5,7 @@
   "scripts": {
     "clean-deploys": "now rm $INSTANCE_NAME --token $NOW_TOKEN --yes",
     "deploy": "now alias $(now --name $INSTANCE_NAME -e NODE_ENV=production --npm --token $NOW_TOKEN) $INSTANCE_NAME --token=$NOW_TOKEN",
+    "dev": "npm run fetch-dataset && npm run start",
     "fetch-dataset": "env-cmd .env node scripts/fetch-dataset",
     "scale": "now scale $INSTANCE_NAME 1 --token $NOW_TOKEN",
     "start": "serve public --single"

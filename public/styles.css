@@ -1,183 +1,40 @@
-::-moz-selection {
-  background-color: var(--quaternary-color);
-}
-
 :root {
-  --border-color: rgba(0, 0, 0, 0.25);
   --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
-  --font-size: 16px;
-  --gray-color: #999;
   --icon-size: 30px;
   --main-color: #50f;
-  --quaternary-color: gold;
-  --secondary-color: rgb(255, 74, 110);
-  --space: 1rem;
-  --tertiary-color: rgba(0, 0, 0, 0.1);
-  --white: #fff;
-  --white-70: rgba(255, 255, 255, 0.7);
-}
-
-@media screen and (min-width: 30em) {
-  :root {
-    --font-size: 20px;
-    --space: 1.5rem;
-  }
-}
-
-::selection {
-  background-color: var(--quaternary-color);
+  --shadow-color: rgba(0, 0, 0, 0.25);
 }
 
 body {
   font-family: var(--font-family);
-  font-size: var(--font-size);
-  letter-spacing: 0.5px;
-  margin: 0;
 }
 
-a {
+.bg-main {
+  background-color: var(--main-color);
+}
+
+.color-main {
   color: var(--main-color);
-  display: block;
-  transition: transform 0.2s ease-out;
 }
 
-a + a {
-  margin-top: calc(var(--space) / 2);
-}
-
-a:not(.no-animate):active,
-a:not(.no-animate):hover {
-  transform: translateX(calc(var(--space) / 2));
-}
-
-a::before {
+[class*='emoji-']::before {
   display: inline-block;
-  margin-right: calc(var(--space) / 2);
+  margin-right: calc(var(--icon-size) / 4);
   vertical-align: middle;
-  width: var(--space);
+  width: var(--icon-size);
 }
 
-a.download::before {
-  content: '⬇';
-}
-
-a.link::before {
+.emoji-link::before {
   content: '🔗';
 }
 
-a.media::before {
+.emoji-multimedia::before {
   content: '📸';
 }
 
-a.reload::before {
-  content: '🙊';
-}
-
-footer {
-  background-color: #eee;
-  border-top: 2px solid var(--border-color);
-  text-align: center;
-}
-
-p {
-  margin: calc(var(--space) * 2) 0;
-}
-
-footer p {
-  margin-bottom: var(--space);
-  margin-top: 0;
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 500;
-  text-shadow: 1px 1px 1px var(--tertiary-color);
-}
-
-h1 {
-  color: var(--white);
-  font-size: calc(var(--font-size) * 1.6);
-  margin: 0 0 var(--space) 0;
-  text-align: center;
-}
-
-h2 {
-  color: var(--white-70);
-  font-size: calc(var(--font-size) * 1.4);
-  margin: 0;
-  text-align: center;
-}
-
-h3 {
-  border: 2px solid var(--border-color);
-  color: var(--white);
-  font-size: calc(var(--font-size) * 1.2);
-  margin: 0;
-  padding: var(--space);
-  text-transform: uppercase;
-}
-
-header {
-  border-bottom: 2px solid var(--border-color);
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-@keyframes background-animation {
-  0% {
-    background-color: var(--main-color);
-  }
-
-  100% {
-    background-color: var(--secondary-color);
-  }
-}
-
-.background-animation {
-  animation-name: background-animation;
-}
-
-.background-animation,
-.color-animation,
-.fill,
-.img-container::after,
-.progress-bar::after {
-  animation-direction: alternate;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes color-animation {
-  0% {
-    color: var(--main-color);
-  }
-
-  100% {
-    color: var(--secondary-color);
-  }
-}
-
-.color-animation {
-  animation-name: color-animation;
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-.debug * {
-  box-shadow: 0 0 1px var(--quaternary-color);
-}
-
-.error {
-  text-align: center;
+.emoji-resources::before {
+  content: '⬇';
 }
 
 @keyframes fadein {
@@ -195,116 +52,19 @@ img {
   animation-name: fadein;
 }
 
-@keyframes fill-animation {
-  0% {
-    text-shadow: 0 0 var(--main-color);
-  }
-
-  100% {
-    text-shadow: 0 0 var(--secondary-color);
-  }
+.mw-px-600 {
+  max-width: 600px;
 }
 
-.fill {
-  color: transparent;
-  animation-name: fill-animation;
+.progress-emoji {
+  font-size: var(--icon-size);
+  top: calc(-1 * var(--icon-size) * 1.25);
 }
 
-.girl {
+.rotate-x {
   transform: scaleX(-1) translateX(50%);
 }
 
-.girl,
-.medal {
-  font-size: var(--icon-size);
-  position: absolute;
-  top: calc(-1 * var(--icon-size) * 1.5);
-}
-
-.hide {
-  display: none;
-}
-
-.img-container {
-  position: relative;
-}
-
-.img-container::after {
-  animation-name: background-animation;
-  bottom: 0;
-  content: '';
-  left: 0;
-  opacity: 0.3;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: opacity 0.2s ease-out;
-}
-
-.img-container:hover::after {
-  opacity: 0;
-}
-
-.inner-container {
-  padding: calc(var(--space) * 2) var(--space);
-}
-
-.lesson {
-  margin: calc(var(--space) * 2) 0;
-}
-
-.lesson:last-child {
-  margin-bottom: 0;
-}
-
-.lesson div:last-child {
-  padding-left: var(--space);
-}
-
-.lesson div:last-child p {
-  margin-bottom: var(--space);
-}
-
-.loading {
-  text-align: center;
-}
-
-.main-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.medal {
-  right: calc(-1 * var(--icon-size) / 2);
-}
-
-.progress-bar {
-  background-color: var(--border-color);
-  bottom: 0;
-  content: '';
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-
-.progress-bar-container {
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 2px solid var(--border-color);
-  height: 1.5rem;
-  margin-bottom: calc(var(--space) * 2);
-  margin-top: calc(var(--space) * 3);
-  position: relative;
-}
-
-.progress-section {
-  margin-bottom: calc(var(--space) * 2);
-}
-
-.progress-section h4 {
-  margin: 0;
-}
-
-.stretch {
-  flex: 1;
+.text-shadow-1 {
+  text-shadow: 1px 1px 1px var(--shadow-color);
 }

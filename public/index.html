@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Acamica - Desarrollo Web Full Stack - Sede Belgrano 2018/2019</title>
+    <link rel="stylesheet" href="tachyons-4.10.0.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="favicon.png">
     <meta name="description" content="Acamica - Desarrollo Web Full Stack - Sede Belgrano 2018/2019">
@@ -21,44 +22,40 @@
     <meta name="twitter:image" content="https://acamica-dwfs-belgrano.now.sh/social.jpg">
 </head>
 
-<body>
-    <div class="main-container">
-        <header class="background-animation">
-            <div class="container">
-                <div class="inner-container">
-                    <h1>Acamica - Desarrollo Web Full Stack</h1>
-                    <h2>Sede Belgrano 2018/2019</h2>
-                </div>
-            </div>
-        </header>
-        <div class="stretch">
-            <div class="container">
-                <div class="inner-container">
-                    <div id="loading" class="loading">
-                        <p>Cargando...</p>
-                    </div>
-                    <div id="error" class="error hide">
-                        <p>Ocurrió un error.</p>
-                        <p>
-                            <a href="#!" class="no-animate reload" onclick="window.location.href = window.location.href;">Recargar</a>
-                        </p>
-                    </div>
-                    <div id="progress"></div>
-                    <div id="lessons"></div>
-                </div>
+<body class="f4-ns">
+    <div id="loading">
+        <div class="center mw-px-600">
+            <div class="ph3 pv4 tc">
+                <p class="mv0">Cargando...</p>
             </div>
         </div>
-        <footer>
-            <div class="container">
-                <div class="inner-container">
-                    <p>Con mucho
-                        <span class="fill">💚</span> por Teban, Caro y Cris.</p>
-                    <div class="img-container">
-                        <img src="mentores.jpg" alt="Teban, Caro y Cris">
+    </div>
+    <div id="error" class="dn">
+        <div class="center mw-px-600">
+            <div class="ph3 pv4 tc">
+                <p class="mv0">Ocurrió un error 🙊</p>
+                <p class="mb0 mt4">
+                    <a href="#!" class="b b--black-10 ba bg-light-gray black br2 bw1 dib grow link ph3 pv2" onclick="window.location.href = window.location.href;"
+                        rel="noopener noreferrer">
+                        Recargar
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="visibility-hidden">
+        <div class="flex flex-column min-vh-100">
+            <header id="header"></header>
+            <div class="flex-auto">
+                <div class="center mw-px-600">
+                    <div class="ph3 pv4">
+                        <div id="progress"></div>
+                        <div id="lessons"></div>
                     </div>
                 </div>
             </div>
-        </footer>
+            <footer id="footer"></footer>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>

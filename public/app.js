@@ -5,6 +5,11 @@ window.onload = () => {
 const fetchDataset = () => {
   fetch(`${window.location.href}dataset.json`)
     .then((response) => response.json())
+    .then((dataset) => ({
+      lessons: dataset.lessons,
+      content: dataset.content[0],
+      styles: dataset.styles[0]
+    }))
     .then(showContent)
     .catch(showError);
 };
@@ -15,17 +20,60 @@ const notReactDOM = {
   }
 };
 
-const showContent = ({ general_information, lessons }) => {
-  document.getElementById('loading').classList.add('hide');
+const setDocumentProperty = (cssVariable, cssVariableValue) => {
+  document.documentElement.style.setProperty(cssVariable, cssVariableValue);
+};
 
-  showProgress(general_information, lessons.length);
+const showContent = ({ lessons, content, styles }) => {
+  setDocumentProperty('--main-color', styles.main_color);
+  toggleClass('loading', 'dn');
+
+  showHeader(content);
+  showProgress(content, lessons.length);
   showLessons(lessons);
+  showFooter(content);
+
+  toggleClass('content', 'visibility-hidden');
+  toggleClass('content', 'fade-in');
 };
 
 const showError = (error) => {
-  console.error('Todo mal', error);
+  console.error(error);
 
-  document.getElementById('error').classList.remove('hide');
+  toggleClass('loading', 'dn');
+  toggleClass('error', 'dn');
+};
+
+const showFooter = (content) => {
+  notReactDOM.render(
+    /* html */ `<div class="b--black-10 bg-light-gray bt bw1">
+      <div class="center mw-px-600">
+      <div class="ph3 pv4 tc">
+          <p class="mb4 mt0">${content.footer_title}</p>
+          <div class="img-overlay">
+            <img src="${content.footer_image}" alt="${content.footer_image_alt}" class="db w-100" />
+          </div>
+        </div>
+      </div>
+    </div>`,
+    document.getElementById('footer')
+  );
+};
+
+const showHeader = (content) => {
+  notReactDOM.render(
+    /* html */ `<div class="b--black-10 bg-main bb bw1">
+      <div class="center mw-px-600">
+        <div class="ph3 pv4 text-shadow-1">
+          <div class="tc">
+            <h1 class="f2 mb4 mt0 normal white">${content.header_title}</h1>
+            <h2 class="f3 mv0 normal white-70">${content.header_subtitle}</h2>
+          </div>
+        </div>
+      </div>
+    </div>`,
+    document.getElementById('header')
+  );
 };
 
 const showLessons = (lessons) => {
@@ -34,35 +82,35 @@ const showLessons = (lessons) => {
       .map((lesson) => {
         const { name, date, description, summary, multimedia, resources } = lesson;
 
-        return `<div class="lesson fade-in">
-          <div>
-            <h4>${name} - ${date}</h4>
-          </div>
-          <div>
-            <p>
+        return /* html */ `<div class="mt4 pt4">
+          <h4 class="mb4 mt0">${name} - ${date}</h4>
+          <div class="ml4">
+            <p class="mb3 mt0">
               <em>${description}</em>
             </p>
-            <a
-              href="${summary}"
-              target="_blank"
-              class="color-animation link"
-            >Resumen</a>
-            ${
-              multimedia
-                ? `<a href="${multimedia}"
-              target="_blank"
-              class="color-animation media"
-              >Fotos y Videos</a>`
-                : ''
-            }
-            ${
-              resources
-                ? `<a href="${resources}"
-              target="_blank"
-              class="color-animation download"
-              >Recursos usados en clase</a>`
-                : ''
-            }
+            <ul class="list mv0 pl0">
+              <li>
+                <a
+                  href="${summary}"
+                  target="_blank"
+                  class="color-main dib emoji-link pv2"
+                >Resumen</a>
+              </li>
+              <li class="${multimedia ? 'db' : 'dn'}">
+                <a
+                  href="${multimedia}"
+                  target="_blank"
+                  class="color-main dib emoji-multimedia pv2"
+                >Fotos y Videos</a>
+              </li>
+              <li class="${resources ? 'db' : 'dn'}">
+                <a
+                  href="${resources}"
+                  target="_blank"
+                  class="color-main dib emoji-resources pv2"
+                >Recursos usados en clase</a>
+              </li>
+            </ul>
           </div>
         </div>`;
       })
@@ -71,25 +119,29 @@ const showLessons = (lessons) => {
   );
 };
 
-const showProgress = (general_information, lessonsLength) => {
-  const lessons_amount = general_information[0].lessons_amount;
+const showProgress = (content, lessonsLength) => {
+  const lessons_amount = content.total_lessons;
   const percentage = Number((lessonsLength * 100) / lessons_amount).toFixed(2);
   const percentageAsString = percentage.toString().replace('.', ',');
 
   notReactDOM.render(
-    `<div class="progress-section fade-in">
-      <h4>
+    /* html */ `<div class="mt4">
+      <h4 class="mv0">
         Progreso del curso:
-        <span class="color-animation">${percentageAsString}%</span>, ${lessonsLength} clases de ${lessons_amount}
+        <span class="color-main">${percentageAsString}%</span>, ${lessonsLength} clases de ${lessons_amount}
       </h4>
-      <div class="progress-bar-container">
-        <div class="girl" style="left: ${percentage}%;">
+      <div class="b--black-20 ba bg-light-gray bw1 mt5 relative">
+        <div class="absolute progress-emoji rotate-x top-0" style="left: calc(${percentage}% - (var(--icon-size) / 2.5));">
           🏃
         </div>
-        <div class="medal">🎖</div>
-        <div class="background-animation progress-bar" style="width: ${percentage}%;" />
+        <div class="absolute progress-emoji progress-emoji-medal top-0" style="right: calc(-1.25 * (var(--icon-size) / 2));">🎖</div>
+        <div class="bg-main h2" style="width: ${percentage}%;" />
       </div>
     </div>`,
     document.getElementById('progress')
   );
+};
+
+const toggleClass = (id, cssClass) => {
+  document.getElementById(id).classList.toggle(cssClass);
 };
