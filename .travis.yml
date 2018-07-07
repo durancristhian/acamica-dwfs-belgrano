@@ -7,6 +7,7 @@ notifications:
   email: false
 script:
   - npm run fetch-dataset
+  - npm run build-html
 before_deploy:
   - npm i now --no-save
   - npm run clean-deploys

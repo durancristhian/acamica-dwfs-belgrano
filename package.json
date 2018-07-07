@@ -3,6 +3,7 @@
   "version": "11.0.0",
   "description": "acamica-dwfs-belgrano",
   "scripts": {
+    "build-html": "node scripts/build-html",
     "clean-deploys": "now rm $INSTANCE_NAME --token $NOW_TOKEN --yes",
     "deploy": "now alias $(now --name $INSTANCE_NAME -e NODE_ENV=production --npm --token $NOW_TOKEN) $INSTANCE_NAME --token=$NOW_TOKEN",
     "dev": "npm run fetch-dataset && npm run start",
