@@ -1,20 +1,25 @@
 const fs = require('fs');
 const path = require('path');
+const replace = require('replace-in-file');
 
 try {
-  const metatags = fs.readFileSync(path.resolve('./', 'public', 'dataset.json')).metatags;
-  const oldHtml = fs.readFileSync(path.resolve('./', 'public', 'index.html'));
-  const html = oldHtml
-    .toString()
-    .replace('process.env.TITLE', metatags.title)
-    .replace('process.env.DESCRIPTION', metatags.description)
-    .replace('process.env.URL', metatags.url)
-    .replace('process.env.IMAGE', metatags.image);
+  const dataset = fs.readFileSync(path.resolve('./', 'public', 'dataset.json'));
+  const metatags = JSON.parse(dataset.toString()).metatags[0];
 
-  fs.writeFileSync(path.resolve('./', 'public', 'index.html'), JSON.stringify(html, null, 2));
+  replace.sync({
+    files: path.resolve('./', 'public', 'index.html'),
+    from: [
+      /process.env.TITLE/g,
+      /process.env.DESCRIPTION/g,
+      /process.env.URL/g,
+      /process.env.IMAGE/g
+    ],
+    to: [metatags.title, metatags.description, metatags.url, metatags.image]
+  });
 
   console.log('html generated successfully 😎');
 } catch (error) {
   console.error(error);
+
   process.exit(1);
 }

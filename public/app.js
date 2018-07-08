@@ -66,8 +66,8 @@ const showHeader = (content) => {
       <div class="center mw-px-600">
         <div class="ph3 pv4 text-shadow-1">
           <div class="tc">
-            <h1 class="f2 mb4 mt0 normal white">${content.header_title}</h1>
-            <h2 class="f3 mv0 normal white-70">${content.header_subtitle}</h2>
+            <h1 class="mb4 mt0 normal white">${content.header_title}</h1>
+            <h2 class="mv0 normal white-70">${content.header_subtitle}</h2>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ const showLessons = (lessons) => {
         const { name, date, description, summary, multimedia, resources } = lesson;
 
         return /* html */ `<div class="mt4 pt4">
-          <h4 class="mb4 mt0">${name} - ${date}</h4>
+          <h3 class="mb4 mt0">${name} - ${date}</h3>
           <div class="ml4">
             <p class="mb3 mt0">
               <em>${description}</em>
@@ -126,10 +126,10 @@ const showProgress = (content, lessonsLength) => {
 
   notReactDOM.render(
     /* html */ `<div class="mt4">
-      <h4 class="mv0">
+      <h3 class="mv0">
         Progreso del curso:
         <span class="color-main">${percentageAsString}%</span>, ${lessonsLength} clases de ${lessons_amount}
-      </h4>
+      </h3>
       <div class="b--black-20 ba bg-light-gray bw1 mt5 relative">
         <div class="absolute progress-emoji rotate-x top-0" style="left: calc(${percentage}% - (var(--icon-size) / 2.5));">
           🏃
