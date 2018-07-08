@@ -1,8 +1,16 @@
 {
+  "alias": "acamica-dwfs-belgrano.now.sh",
   "env": {
     "NODE_ENV": "production"
   },
+  "name": "acamica-dwfs-belgrano",
   "public": true,
+  "scale": {
+    "sfo1": {
+      "min": 1,
+      "max": 1
+    }
+  },
   "static": {
     "headers": [
       {
