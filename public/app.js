@@ -82,7 +82,7 @@ const showLessons = (lessons) => {
       .map((lesson) => {
         const { name, date, description, summary, multimedia, resources } = lesson;
 
-        return /* html */ `<div class="mt4 pt4">
+        return /* html */ `<div class="mv4 pt4">
           <h3 class="mb4 mt0">${name} - ${date}</h3>
           <div class="ml4">
             <p class="mb3 mt0">
