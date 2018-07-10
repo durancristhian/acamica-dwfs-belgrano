@@ -6,7 +6,7 @@ Acamica - Desarrollo Web Full Stack - Sede Belgrano 2018/2019
 
 ## Setting up the environment
 
-- Create a Google Spreadsheet.
+- Create a Google Spreadsheet based on `/resources/database.xlsx`.
 - [Check out these easy-to-follow steps](https://support.google.com/docs/answer/37579) in order to be able to publish it and fetch its data.
 - Create an `.env` file from `.env.template`
 
@@ -19,6 +19,8 @@ Acamica - Desarrollo Web Full Stack - Sede Belgrano 2018/2019
   ```bash
   code .env
   ```
+
+> HINT: The `SPREADSHEET_ID` is part of the Google Spreadsheet's URL.
 
 ## Development
 
