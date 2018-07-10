@@ -4,7 +4,7 @@
 
 Acamica - Desarrollo Web Full Stack - Sede Belgrano 2018/2019
 
-## Setting up the environment
+## Setting up the environment
 
 - Create a Google Spreadsheet.
 - [Check out these easy-to-follow steps](https://support.google.com/docs/answer/37579) in order to be able to publish it and fetch its data.
