@@ -95,7 +95,7 @@
       "header_subtitle": "Acamica - Sede Belgrano 2018/2019",
       "total_lessons": 69,
       "footer_title": "Con mucho 💚 por Teban, Caro y Cris.",
-      "footer_image": "mentores.jpg",
+      "footer_image": "assets/mentores.jpg",
       "footer_image_alt": "Teban, Caro y Cris"
     }
   ],
@@ -104,7 +104,7 @@
       "title": "Desarrollo Web Full Stack - Acamica - Sede Belgrano 2018/2019",
       "description": "Desarrollo Web Full Stack - Acamica - Sede Belgrano 2018/2019",
       "url": "https://acamica-dwfs-belgrano.now.sh/",
-      "image": "https://acamica-dwfs-belgrano.now.sh/social.jpg"
+      "image": "https://acamica-dwfs-belgrano.now.sh/assets/social.jpg"
     }
   ],
   "styles": [
