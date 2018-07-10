@@ -6,7 +6,6 @@
     "build-html-prod": "node scripts/build-html",
     "clean-deploys": "now rm $INSTANCE_NAME --safe --yes --token $NOW_TOKEN",
     "deploy": "now --token $NOW_TOKEN",
-    "dev": "npm run start",
     "fetch-dataset": "env-cmd .env node scripts/fetch-dataset",
     "start": "serve public"
   },
