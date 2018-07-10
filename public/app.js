@@ -50,9 +50,7 @@ const showFooter = (content) => {
       <div class="center mw-px-600">
       <div class="ph3 pv4 tc">
           <p class="mb4 mt0">${content.footer_title}</p>
-          <div class="img-overlay">
-            <img src="${content.footer_image}" alt="${content.footer_image_alt}" class="db w-100" />
-          </div>
+          <img src="${content.footer_image}" alt="${content.footer_image_alt}" class="db w-100" />
         </div>
       </div>
     </div>`,
