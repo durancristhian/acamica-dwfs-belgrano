@@ -5,7 +5,7 @@
   "scripts": {
     "build-html-prod": "node scripts/build-html",
     "clean-deploys": "now rm $INSTANCE_NAME --safe --yes --token $NOW_TOKEN",
-    "deploy": "now --token $NOW_TOKEN",
+    "deploy": "now alias $(now --token $NOW_TOKEN) $INSTANCE_NAME --token=$NOW_TOKEN",
     "fetch-dataset": "env-cmd .env node scripts/fetch-dataset",
     "start": "serve public"
   },

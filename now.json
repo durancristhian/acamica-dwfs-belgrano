@@ -1,5 +1,4 @@
 {
-  "alias": "acamica-dwfs-belgrano.now.sh",
   "env": {
     "NODE_ENV": "production"
   },
