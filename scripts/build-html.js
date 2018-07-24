@@ -20,7 +20,7 @@ try {
     to: [metatags.title, metatags.description, metatags.url, metatags.image]
   });
 
-  console.log('html generated successfully 😎');
+  console.log('HTML files generated successfully 😎');
 } catch (error) {
   console.error(error);
 
