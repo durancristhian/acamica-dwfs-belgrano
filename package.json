@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/durancristhian/acamica-dwfs-belgrano#readme",
   "dependencies": {
-    "serve": "^9.2.0"
+    "serve": "^9.3.0"
   },
   "devDependencies": {
     "env-cmd": "^8.0.2",
