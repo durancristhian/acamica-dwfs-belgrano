@@ -85,16 +85,15 @@ const showHeader = (content) => {
 
 const showLessons = (lessons) => {
   notReactDOM.render(
-    lessons
+    `<h3 class="color-main mv5 tc">Resumenes 🤩</h3>
+    ${lessons
       .map((lesson) => {
         const { name, date, description, summary, multimedia, resources } = lesson;
 
-        return /* html */ `<div class="mv4 pt4">
-          <h3 class="mb4 mt0">${name} - ${date}</h3>
+        return /* html */ `<div class="mv5">
+          <h4 class="mb4 mt0">${name} - ${date}</h4>
           <div class="ml4">
-            <p class="mb3 mt0">
-              <em>${description}</em>
-            </p>
+            <p class="black-70 mb3 mt0">${description}</p>
             <ul class="list mv0 pl0">
               <li>
                 <a
@@ -121,7 +120,7 @@ const showLessons = (lessons) => {
           </div>
         </div>`;
       })
-      .join(''),
+      .join('')}`,
     document.getElementById('lessons')
   );
 };
@@ -132,18 +131,17 @@ const showProgress = (content, lessonsLength) => {
   const percentageAsString = percentage.toString().replace('.', ',');
 
   notReactDOM.render(
-    /* html */ `<div class="mt4">
-      <h3 class="mv0">
-        Progreso del curso:
-        <span class="color-main">${percentageAsString}%</span>, ${lessonsLength} clases de ${lessons_amount}
-      </h3>
-      <div class="b--black-20 ba bg-light-gray bw1 mt5 relative">
-        <div class="absolute progress-emoji rotate-x top-0" style="left: calc(${percentage}% - (var(--icon-size) / 2.5));">
-          🏃
-        </div>
-        <div class="absolute progress-emoji progress-emoji-medal top-0" style="right: calc(-1.25 * (var(--icon-size) / 2));">🎖</div>
-        <div class="bg-main h2" style="width: ${percentage}%;" />
+    /* html */ `<h3 class="color-main mb5 mt4 tc">Información general 🤓</h3>
+    <h4 class="mv0">
+      Progreso del curso:
+      <span class="color-main">${percentageAsString}%</span>, ${lessonsLength} clases de ${lessons_amount}
+    </h4>
+    <div class="b--black-20 ba bg-light-gray bw1 mt5 relative">
+      <div class="absolute progress-emoji rotate-x top-0" style="left: calc(${percentage}% - (var(--icon-size) / 2.5));">
+        🏃
       </div>
+      <div class="absolute progress-emoji progress-emoji-medal top-0" style="right: calc(-1.25 * (var(--icon-size) / 2));">🎖</div>
+      <div class="bg-main h2" style="width: ${percentage}%;" />
     </div>`,
     document.getElementById('progress')
   );
@@ -152,57 +150,80 @@ const showProgress = (content, lessonsLength) => {
 const showStudents = () => {
   const students = [
     {
-      name: 'Diego Feresin',
+      firstName: 'Diego',
+      lastName: 'Feresin',
       video: 'diego-feresin'
     },
     {
-      name: 'Esteban Yañez',
+      firstName: 'Esteban',
+      lastName: 'Yañez',
       video: 'esteban-yañez'
     },
     {
-      name: 'Guido Galanternik',
+      firstName: 'Guido',
+      lastName: 'Galanternik',
       video: 'guido-galanternik'
     },
     {
-      name: 'Gustavo Malamud',
+      firstName: 'Gustavo',
+      lastName: 'Malamud',
       video: 'gustavo-malamud'
     },
     {
-      name: 'Jorge Brozman',
-      video: 'jorge-brozman'
+      firstName: 'Juan Ignacio',
+      lastName: 'Tabarez',
+      video: 'juan-ignacio-tabarez'
     },
     {
-      name: 'Mariano Lazzarini',
+      firstName: 'Lu',
+      lastName: 'Godoy',
+      video: 'lu-godoy'
+    },
+    {
+      firstName: 'Mariano',
+      lastName: 'Lazzarini',
       video: 'mariano-lazzarini'
     },
     {
-      name: 'Matias De Bonis',
+      firstName: 'Matias',
+      lastName: 'De Bonis',
       video: 'matias-de-bonis'
     },
     {
-      name: 'Sebastián Villanueva',
+      firstName: 'Sebastián',
+      lastName: 'Villanueva',
       video: 'sebastian-villanueva'
     }
   ];
 
   notReactDOM.render(
-    students
-      .map(
-        (student) => /* html */ `<div class="mv4">
-          <div class="overlay">
-            <h3 class="overlay-text">${student.name}</h3>
-            <video
-              src="/assets/videos/${student.video}.mp4"
-              loop
-              muted
-              class="db w-100"
-              onmouseover="this.play();"
-              onmouseleave="this.pause(); this.currentTime = 0;">
-            </video>
-          </div>
-        </div>`
-      )
-      .join(''),
+    `<h3 class="color-main mb5 mt4 tc">¡Hay equipo! 💪🏼</h3>
+    <p class="black-70 mv0 tc">
+      <em>No todos se animaron a posar todavía, pero de a poco vamos a aparecer todos.</em>
+    </p>
+    <div class="center mw-px-400">
+      ${students
+        .map(
+          (student) => /* html */ `<div class="mv5">
+            <div class="overlay">
+              <p class="overlay-text">
+                <span>${student.firstName}</span>
+                <br />
+                <strong>${student.lastName}</strong>
+              </p>
+              <video
+                src="/assets/videos/${student.video}.mp4"
+                loop
+                muted
+                class="db w-100"
+                onmouseover="this.play();"
+                onmouseleave="this.pause(); this.currentTime = 0;">
+              </video>
+            </div>
+          </div>`
+        )
+        .join('')}
+      </div>`,
     document.getElementById('students')
   );
 };

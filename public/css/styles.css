@@ -52,6 +52,10 @@ body {
   animation-name: fadein;
 }
 
+.mw-px-400 {
+  max-width: 400px;
+}
+
 .mw-px-600 {
   max-width: 600px;
 }
@@ -75,6 +79,7 @@ body {
 }
 
 .overlay:hover::before {
+  opacity: 0.75;
   transform: rotate(10deg) scale(1.5) translateX(100%);
 }
 
@@ -86,7 +91,7 @@ body {
   left: 50%;
   margin: 0;
   max-width: 75%;
-  padding: 1rem 3rem;
+  padding: 1rem;
   position: absolute;
   text-align: center;
   text-shadow: 1px 1px 1px var(--shadow-color);
@@ -97,6 +102,7 @@ body {
 }
 
 .overlay:hover .overlay-text {
+  opacity: 0;
   transition-delay: 0.25s;
   transform: skew(-10deg) rotate(-10deg) translate(-250%, -50%);
 }
