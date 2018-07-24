@@ -1,6 +1,6 @@
 {
   "name": "acamica-dwfs-belgrano",
-  "version": "11.1.0",
+  "version": "11.2.0",
   "description": "acamica-dwfs-belgrano",
   "scripts": {
     "build-html-prod": "node scripts/build-html",
