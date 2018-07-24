@@ -3,7 +3,7 @@ window.onload = () => {
 };
 
 const fetchDataset = () => {
-  fetch(`${window.location.href}dataset.json`)
+  fetch(`${window.location.origin}/dataset.json`)
     .then((response) => response.json())
     .then((dataset) => ({
       lessons: dataset.lessons,
@@ -29,8 +29,17 @@ const showContent = ({ lessons, content, styles }) => {
   toggleClass('loading', 'dn');
 
   showHeader(content);
-  showProgress(content, lessons.length);
-  showLessons(lessons);
+
+  switch (window.location.pathname) {
+    case '/estudiantes':
+      showStudents();
+      break;
+    default:
+      showProgress(content, lessons.length);
+      showLessons(lessons);
+      break;
+  }
+
   showFooter(content);
 
   toggleClass('content', 'visibility-hidden');
@@ -137,6 +146,64 @@ const showProgress = (content, lessonsLength) => {
       </div>
     </div>`,
     document.getElementById('progress')
+  );
+};
+
+const showStudents = () => {
+  const students = [
+    {
+      name: 'Diego Feresin',
+      video: 'diego-feresin'
+    },
+    {
+      name: 'Esteban Yañez',
+      video: 'esteban-yañez'
+    },
+    {
+      name: 'Guido Galanternik',
+      video: 'guido-galanternik'
+    },
+    {
+      name: 'Gustavo Malamud',
+      video: 'gustavo-malamud'
+    },
+    {
+      name: 'Jorge Brozman',
+      video: 'jorge-brozman'
+    },
+    {
+      name: 'Mariano Lazzarini',
+      video: 'mariano-lazzarini'
+    },
+    {
+      name: 'Matias De Bonis',
+      video: 'matias-de-bonis'
+    },
+    {
+      name: 'Sebastián Villanueva',
+      video: 'sebastian-villanueva'
+    }
+  ];
+
+  notReactDOM.render(
+    students
+      .map(
+        (student) => /* html */ `<div class="mv4">
+          <div class="overlay">
+            <h3 class="overlay-text">${student.name}</h3>
+            <video
+              src="/assets/videos/${student.video}.mp4"
+              loop
+              muted
+              class="db w-100"
+              onmouseover="this.play();"
+              onmouseleave="this.pause(); this.currentTime = 0;">
+            </video>
+          </div>
+        </div>`
+      )
+      .join(''),
+    document.getElementById('students')
   );
 };
 

@@ -56,6 +56,51 @@ body {
   max-width: 600px;
 }
 
+.overlay {
+  overflow: hidden;
+  position: relative;
+}
+
+.overlay::before {
+  background: var(--main-color);
+  bottom: 0;
+  content: '';
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  transform: rotate(10deg) scale(1.5);
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+.overlay:hover::before {
+  transform: rotate(10deg) scale(1.5) translateX(100%);
+}
+
+.overlay-text {
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 2px solid var(--shadow-color);
+  color: white;
+  font-size: 3.5vh;
+  left: 50%;
+  margin: 0;
+  max-width: 75%;
+  padding: 1rem 3rem;
+  position: absolute;
+  text-align: center;
+  text-shadow: 1px 1px 1px var(--shadow-color);
+  top: 50%;
+  transform: skew(-10deg) rotate(-10deg) translate(-50%, -50%);
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+.overlay:hover .overlay-text {
+  transition-delay: 0.25s;
+  transform: skew(-10deg) rotate(-10deg) translate(-250%, -50%);
+}
+
 .progress-emoji {
   font-size: var(--icon-size);
   top: calc(-1 * var(--icon-size) * 1.25);
