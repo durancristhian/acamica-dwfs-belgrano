@@ -85,7 +85,7 @@ const showHeader = (content) => {
 
 const showLessons = (lessons) => {
   notReactDOM.render(
-    `<h3 class="color-main mv5 tc">Resumenes 🤩</h3>
+    `<h3 class="color-main mv5 tc">Resúmenes 🤩</h3>
     ${lessons
       .map((lesson) => {
         const { name, date, description, summary, multimedia, resources } = lesson;
@@ -197,10 +197,7 @@ const showStudents = () => {
   ];
 
   notReactDOM.render(
-    `<h3 class="color-main mb5 mt4 tc">¡Hay equipo! 💪🏼</h3>
-    <p class="black-70 mv0 tc">
-      <em>No todos se animaron a posar todavía, pero de a poco vamos a aparecer todos.</em>
-    </p>
+    `<h3 class="color-main mb0 mt4 tc">¡Hay equipo! 💪🏼</h3>
     <div class="center mw-px-400">
       ${students
         .map(

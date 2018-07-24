@@ -1,6 +1,14 @@
 {
   "lessons": [
     {
+      "name": "Clase 12",
+      "date": "23 de Julio, 2018",
+      "description": "Tuvimos un primer contacto con GIT como herramienta para el control de versiones. Teban nos dio un pantallazo de por qué usamos la herramienta, como crear un repositorio, como trabajar en branches y combinar modificaciones con el branch principal del repositorio (master).",
+      "summary": "https://docs.google.com/document/d/1-j91O7Hdyy0ji801DFbP1C7jVbV4NlizAG7mLyloSG4/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/u/0/folders/1wKeZRmlA7b0IlfgHWjcJPRuBTA-lNOgs",
+      "resources": null
+    },
+    {
       "name": "Clase 11",
       "date": "4 de Julio, 2018",
       "description": "Aprendimos más sobre funciones. Marcamos diferencia entre procedimientos (funciones que uso para \"hacer\" algo) de funciones (funciones que uso para \"devolver\" algo). Intentando mostrar ventajas de hacer funciones chicas y enfocadas en resolver solo 1 cosa, pero bien.",
