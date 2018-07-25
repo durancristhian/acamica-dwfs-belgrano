@@ -85,7 +85,7 @@ const showHeader = (content) => {
 
 const showLessons = (lessons) => {
   notReactDOM.render(
-    `<h3 class="color-main mv5 tc">Resúmenes 🤩</h3>
+    `<h3 class="mv5 silver tc ttu">Resúmenes 🤩</h3>
     ${lessons
       .map((lesson) => {
         const { name, date, description, summary, multimedia, resources } = lesson;
@@ -131,7 +131,7 @@ const showProgress = (content, lessonsLength) => {
   const percentageAsString = percentage.toString().replace('.', ',');
 
   notReactDOM.render(
-    /* html */ `<h3 class="color-main mb5 mt4 tc">Información general 🤓</h3>
+    /* html */ `<h3 class="mb5 mt4 silver tc ttu">Información general 🤓</h3>
     <h4 class="mv0">
       Progreso del curso:
       <span class="color-main">${percentageAsString}%</span>, ${lessonsLength} clases de ${lessons_amount}
@@ -197,11 +197,11 @@ const showStudents = () => {
   ];
 
   notReactDOM.render(
-    `<h3 class="color-main mb0 mt4 tc">¡Hay equipo! 💪🏼</h3>
+    /* html */ `<h3 class="mb0 mt4 silver tc ttu">¡Hay equipo! 💪🏼</h3>
     <div class="center mw-px-400">
       ${students
         .map(
-          (student) => /* html */ `<div class="mv5">
+          (student) => /* html */ `<div class="mv4">
             <div class="overlay">
               <p class="overlay-text">
                 <span>${student.firstName}</span>
