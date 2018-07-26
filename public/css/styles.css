@@ -103,7 +103,7 @@ body {
 
 .overlay:hover .overlay-text {
   transition-delay: 0.25s;
-  transform: skew(-10deg) rotate(-10deg) translate(-50%, 150%);
+  transform: skew(-10deg) rotate(-10deg) translate(-200%, -50%);
 }
 
 .progress-emoji {

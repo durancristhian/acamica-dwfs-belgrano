@@ -7,10 +7,7 @@ try {
   const metatags = JSON.parse(dataset.toString()).metatags[0];
 
   replace.sync({
-    files: [
-      path.resolve('./', 'public', 'index.html'),
-      path.resolve('./', 'public', 'estudiantes.html')
-    ],
+    files: [path.resolve('./', 'public', 'index.html')],
     from: [
       /process.env.TITLE/g,
       /process.env.DESCRIPTION/g,

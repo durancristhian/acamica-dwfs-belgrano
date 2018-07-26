@@ -29,17 +29,9 @@ const showContent = ({ lessons, content, styles }) => {
   toggleClass('loading', 'dn');
 
   showHeader(content);
-
-  switch (window.location.pathname) {
-    case '/estudiantes':
-      showStudents();
-      break;
-    default:
-      showProgress(content, lessons.length);
-      showLessons(lessons);
-      break;
-  }
-
+  showProgress(content, lessons.length);
+  showLessons(lessons);
+  // showStudents();
   showFooter(content);
 
   toggleClass('content', 'visibility-hidden');
@@ -55,7 +47,7 @@ const showError = (error) => {
 
 const showFooter = (content) => {
   notReactDOM.render(
-    /* html */ `<div class="b--black-10 bg-light-gray bt bw1">
+    /* html */ `<div class="b--black-10 bg-white bt bw1">
       <div class="center mw-px-600">
       <div class="ph3 pv4 tc">
           <p class="mb4 mt0">${content.footer_title}</p>
@@ -88,36 +80,43 @@ const showLessons = (lessons) => {
     `<h3 class="mv5 silver tc ttu">Resúmenes 🤩</h3>
     ${lessons
       .map((lesson) => {
-        const { name, date, description, summary, multimedia, resources } = lesson;
+        const { name, date, description, summary, multimedia, resources, picture } = lesson;
 
-        return /* html */ `<div class="mv5">
-          <h4 class="mb4 mt0">${name} - ${date}</h4>
-          <div class="ml4">
-            <p class="black-70 mb3 mt0">${description}</p>
-            <ul class="list mv0 pl0">
-              <li>
-                <a
-                  href="${summary}"
-                  target="_blank"
-                  class="color-main dib emoji-link pv2"
-                >Resumen</a>
-              </li>
-              <li class="${multimedia ? 'db' : 'dn'}">
-                <a
-                  href="${multimedia}"
-                  target="_blank"
-                  class="color-main dib emoji-multimedia pv2"
-                >Fotos y Videos</a>
-              </li>
-              <li class="${resources ? 'db' : 'dn'}">
-                <a
-                  href="${resources}"
-                  target="_blank"
-                  class="color-main dib emoji-resources pv2"
-                >Recursos usados en clase</a>
-              </li>
-            </ul>
-          </div>
+        return /* html */ `<div class="b--black-10 ba bg-white bw1 mv5 pa4">
+          <h4 class="mb4 mt0 tc">${name} - ${date}</h4>
+          <p class="black-70 mb3 mt0">
+            <em>${description}</em>
+          </p>
+          ${
+            picture
+              ? /* html */ `<div class="mb3 pt2">
+                  <img src="${picture}" class="db w-100" />
+                </div>`
+              : ''
+          }
+          <ul class="list mv0 pl0">
+            <li>
+              <a
+                href="${summary}"
+                target="_blank"
+                class="color-main dib emoji-link pv2"
+              >Resumen</a>
+            </li>
+            <li class="${multimedia ? 'db' : 'dn'}">
+              <a
+                href="${multimedia}"
+                target="_blank"
+                class="color-main dib emoji-multimedia pv2"
+              >Fotos y Videos</a>
+            </li>
+            <li class="${resources ? 'db' : 'dn'}">
+              <a
+                href="${resources}"
+                target="_blank"
+                class="color-main dib emoji-resources pv2"
+              >Recursos usados en clase</a>
+            </li>
+          </ul>
         </div>`;
       })
       .join('')}`,
@@ -131,7 +130,7 @@ const showProgress = (content, lessonsLength) => {
   const percentageAsString = percentage.toString().replace('.', ',');
 
   notReactDOM.render(
-    /* html */ `<h3 class="mb5 mt4 silver tc ttu">Información general 🤓</h3>
+    /* html */ `<h3 class="mv5 silver tc ttu">Información general 🤓</h3>
     <h4 class="mv0">
       Progreso del curso:
       <span class="color-main">${percentageAsString}%</span>, ${lessonsLength} clases de ${lessons_amount}
@@ -197,11 +196,11 @@ const showStudents = () => {
   ];
 
   notReactDOM.render(
-    /* html */ `<h3 class="mb0 mt4 silver tc ttu">¡Hay equipo! 💪🏼</h3>
+    /* html */ `<h3 class="mv5 silver tc ttu">¡Hay equipo! 💪🏼</h3>
     <div class="center mw-px-400">
       ${students
         .map(
-          (student) => /* html */ `<div class="mv4">
+          (student) => /* html */ `<div class="mv5">
             <div class="overlay">
               <p class="overlay-text">
                 <span>${student.firstName}</span>
