@@ -31,7 +31,7 @@ const showContent = ({ lessons, content, styles }) => {
   showHeader(content);
   showProgress(content, lessons.length);
   showLessons(lessons);
-  // showStudents();
+  showStudents();
   showFooter(content);
 
   toggleClass('content', 'visibility-hidden');
