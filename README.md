@@ -29,7 +29,7 @@ Acamica - Desarrollo Web Full Stack - Sede Belgrano 2018/2019
 npm i
 
 # fetch the spreadsheet's data
-npm run fetch-spreadsheet
+npm run fetch-dataset
 
 # start server
 npm start
