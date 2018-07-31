@@ -1,9 +1,18 @@
 {
   "lessons": [
     {
+      "name": "Clase 14",
+      "date": "30 de Julio, 2018",
+      "description": "El mentor Cristhian con H después de la T nos introdujo en el tema Arrays: aprendimos por qué es útil, como leer y asignar valores a sus posiciones usando índices y por medio de ejercicios en clase, como se integra conceptualmente con todo lo que veníamos haciendo.",
+      "summary": "https://docs.google.com/document/d/1HRkpBxWbHwS_b12VYG0EAvCX0lZA71_VylKDZ9sCqCA/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/open?id=1NYqu97nfywfAjZOOdgMbN0dKl4wBQvAU",
+      "resources": "https://drive.google.com/open?id=1j4eQckT9vltEWzJJRAyYEtlHRgcwenX-",
+      "picture": "/assets/lessons/14.jpg"
+    },
+    {
       "name": "Clase 13",
       "date": "25 de Julio, 2018",
-      "description": "Eva nos maravilló con una clase a puras demos donde aprendimos sobre transforms, animations, responsive design, media-queries, flexbox y css grids.",
+      "description": "Eva nos maravilló con una clase a puras demos donde aprendimos sobre transform, animations, responsive design, media-queries, flexbox y css grids.",
       "summary": "https://docs.google.com/document/d/1b9k8FliXteUKiOPjYXqf4at1pEcZIsLkXoHUmA1HDhw/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1f_OOj6R-YPphvHm3cH5_7Oscw1oavvKc",
       "resources": null,
