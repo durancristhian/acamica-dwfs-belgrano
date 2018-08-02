@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 15",
+      "date": "1 de Agosto, 2018",
+      "description": "Aprendimos sobre arrays multidimensionales haciendo algunos ejercicios todos juntos y luego trabajando en parejas. Empezamos con el proyecto paralelo y debatimos bastante sobre lo que fuimos aprendiendo.",
+      "summary": "https://drive.google.com/open?id=1bGC-W-ZSw_s7vt7QQRsdYMV9n7IRY5Ahh_7noiHWb90",
+      "multimedia": "https://drive.google.com/open?id=1kkJW5em9tLLJYjCPp-_KI_uFJwA8ka2P",
+      "resources": "https://drive.google.com/open?id=1E6jpOi0-dZatehHwhc_x07hQKGAwZH7u",
+      "picture": "/assets/lessons/15.jpg"
+    },
+    {
       "name": "Clase 14",
       "date": "30 de Julio, 2018",
       "description": "El mentor Cristhian con H después de la T nos introdujo en el tema Arrays: aprendimos por qué es útil, como leer y asignar valores a sus posiciones usando índices y por medio de ejercicios en clase, como se integra conceptualmente con todo lo que veníamos haciendo.",
