@@ -25,6 +25,7 @@ gsheets
       JSON.stringify(dataset, null, 2)
     );
 
+    console.log(JSON.stringify(dataset, null, 2));
     console.log('Dataset generated successfully 😎');
   })
   .catch((error) => {
