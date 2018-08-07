@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 16",
+      "date": "6 de Agosto, 2018",
+      "description": "Teban nos enseño sobre bucles. Dimos muchas vueltas (cuak) pero tuvimos un shock de conocimiento importante. Aprendimos sobre ciclos while y for con muchis ejercicios y hasta quedó 1 de tarea.",
+      "summary": "https://docs.google.com/document/d/1d_zhn2xwTX8Hy-MIKAzAhso2P-7bh3NW5Oc4iNJq4lw/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/open?id=1-5i8c4vl7isNmb33WXT1MOVv_1E0cpp1",
+      "resources": "https://drive.google.com/open?id=1s_EtW5iH575zNdZ5Wyu35Lo4rV7rYIb8",
+      "picture": "/assets/lessons/16.jpg"
+    },
+    {
       "name": "Clase 15",
       "date": "1 de Agosto, 2018",
       "description": "Aprendimos sobre arrays multidimensionales haciendo algunos ejercicios todos juntos y luego trabajando en parejas. Empezamos con el proyecto paralelo y debatimos bastante sobre lo que fuimos aprendiendo.",
