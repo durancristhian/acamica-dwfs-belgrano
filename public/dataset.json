@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 17",
+      "date": "8 de Agosto, 2018",
+      "description": "Hicimos un repaso furioso de bucles y ejercicios para curiosos. ¡Salia humo de algunas cabezas!",
+      "summary": "https://drive.google.com/open?id=1-I6MdBvBAvf5CRNm9PsVKn3wGrpb6hK7dVjJH9UjJBw",
+      "multimedia": "https://drive.google.com/open?id=1-6oymVapEqjFgAhL474kpQhpWyND9fBj",
+      "resources": "https://drive.google.com/open?id=1xRB7iwt01BvUvefYuPkUNeF2pius-2PD",
+      "picture": "/assets/lessons/17.jpg"
+    },
+    {
       "name": "Clase 16",
       "date": "6 de Agosto, 2018",
       "description": "Teban nos enseño sobre bucles. Dimos muchas vueltas (cuak) pero tuvimos un shock de conocimiento importante. Aprendimos sobre ciclos while y for con muchis ejercicios y hasta quedó 1 de tarea.",
