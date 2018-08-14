@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 18",
+      "date": "13 de Agosto, 2018",
+      "description": "Hicimos un repaso de arrays y bucles para llegar metidos al tema nuevo: matrices. Planteamos varios ejercicios que resolvimos entre todos y con el proyecto paralelo pudimos practicar un poco más.",
+      "summary": "https://drive.google.com/open?id=1tN0Lop-C5Bu-crVgdOCsIUrtWMu23oE7D9aF66XA8WY",
+      "multimedia": "https://drive.google.com/open?id=1lsj6hoHU5As2tzcMwsauOPE2aw2XTmK2",
+      "resources": null,
+      "picture": "/assets/lessons/18.jpg"
+    },
+    {
       "name": "Clase 17",
       "date": "8 de Agosto, 2018",
       "description": "Hicimos un repaso furioso de bucles y ejercicios para curiosos. ¡Salia humo de algunas cabezas!",
