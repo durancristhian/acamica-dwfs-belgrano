@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 19",
+      "date": "15 de Agosto, 2018",
+      "description": "Aprendimos a como crear nodos de DOM desde JavaScript usando a nuestro amigo el budita luego de una breve introducción de objetos. Después del break terminamos el proyecto paralelo.",
+      "summary": "https://drive.google.com/open?id=1FCfex77wAKj6k_y6UXFsqBTdZ7QRFFBskjLCh__fsb8",
+      "multimedia": "https://drive.google.com/open?id=1i5u_QtZTzw6gAFdj-EsW-kPeCUY19s5o",
+      "resources": "https://drive.google.com/open?id=1uCKlAS8mMf0q69jDtNcXt5L7JGmFFSx4",
+      "picture": "/assets/lessons/19.jpg"
+    },
+    {
       "name": "Clase 18",
       "date": "13 de Agosto, 2018",
       "description": "Hicimos un repaso de arrays y bucles para llegar metidos al tema nuevo: matrices. Planteamos varios ejercicios que resolvimos entre todos y con el proyecto paralelo pudimos practicar un poco más.",
