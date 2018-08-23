@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 20",
+      "date": "22 de Agosto, 2018",
+      "description": "Tuvimos una introducción a objetos y a JQuery. El payazombie nos acompañó después del break para practicar lo visto en clase.",
+      "summary": "https://drive.google.com/open?id=1L0ogHPaAmB8w6jhGkGH_d5xmaKDZVkglvjtGScbzfwU",
+      "multimedia": "https://drive.google.com/open?id=1-8rzVFtfUXR7jXyBWw9pJv2X_vmbIUb3",
+      "resources": "https://drive.google.com/open?id=1KPx-B3VRAGYRdaiTuK6zHqiyrGU2_Jr0",
+      "picture": "/assets/lessons/20.jpg"
+    },
+    {
       "name": "Clase 19",
       "date": "15 de Agosto, 2018",
       "description": "Aprendimos a como crear nodos de DOM desde JavaScript usando a nuestro amigo el budita luego de una breve introducción de objetos. Después del break terminamos el proyecto paralelo.",
