@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 21",
+      "date": "27 de Agosto, 2018",
+      "description": "Aprendimos sobre eventos en JavaScript y construimos un acordeón y hasta un drone que se movía siguiendo el mouse.",
+      "summary": "https://drive.google.com/open?id=1dDvLC1X8tB8pd8S1bHAxSAzeT11kt2y_MmUMPtGTtZ8",
+      "multimedia": "https://drive.google.com/open?id=1G4ktriM-0j_QZRtHvUO2Rm0-eKk2O8rC",
+      "resources": "https://drive.google.com/open?id=1aWvPqEA4N7I2fksXyLJswHuQLZ7jq_fM",
+      "picture": "/assets/lessons/21.jpg"
+    },
+    {
       "name": "Clase 20",
       "date": "22 de Agosto, 2018",
       "description": "Tuvimos una introducción a objetos y a JQuery. El payazombie nos acompañó después del break para practicar lo visto en clase.",
