@@ -1,3 +1,5 @@
+var drone;
+
 window.onload = () => {
   setTimeout(fetchDataset, 1000);
 };
@@ -30,12 +32,37 @@ const showContent = ({ lessons, content, styles }) => {
 
   showHeader(content);
   showProgress(content, lessons.length);
+  showBaseProject();
   showLessons(lessons);
   showStudents();
   showFooter(content);
 
   toggleClass('content', 'visibility-hidden');
   toggleClass('content', 'fade-in');
+
+  drone = document.getElementById('drone');
+  document.getElementById('header').addEventListener('mousemove', moveDrone);
+};
+
+const moveDrone = (event) => {
+  const { pageX, pageY } = event;
+
+  drone.style.left = `${pageX - 75}px`;
+  drone.style.top = `${pageY < 385 ? pageY - 30 : 385}px`;
+};
+
+const showBaseProject = () => {
+  notReactDOM.render(
+    /* html */ `<h3 class="mv5 silver tc ttu">✅ Proyecto base con Node.js</h3>
+      <p class="black-70 mb3 mt0">
+        <em>En el siguiente link encontrarás una carpeta con un proyecto de Node.js básico ya configurado para tener un servidor local y desarrollar en un entorno prolijo luego de que instales las dependencias. <strong>No te olvides de leer el archivo README.md para entender cuales son las instrucciones para hacer funcionar todo</strong>. Happy coding!</em>
+      </p>
+      <div class="tc">
+        <a href="https://drive.google.com/open?id=1E5tg2MGZ5grHZWDffiSAqKWsHWpkVfwu" target="_blank" rel="noopener noreferrer" class="b--black-20 ba bg-main bw1 dib f4 link ph4 pv3 text-shadow-1 ttu white">Descargar</a>
+      </div>
+    `,
+    document.getElementById('base-project')
+  );
 };
 
 const showError = (error) => {
@@ -61,8 +88,12 @@ const showFooter = (content) => {
 
 const showHeader = (content) => {
   notReactDOM.render(
-    /* html */ `<div class="b--black-10 bg-main bb bw1">
-      <div class="center mw-px-600">
+    /* html */ `<div class="b--black-10 bg-main bb bw1 flex items-center justify-center relative vh-50">
+      <div class="absolute h-100 left-0 top-0 w-100 z-1">
+        <div id="drone"></div>
+        <div id="pilot"></div>
+      </div>
+      <div class="center mw-px-600 relative z-2">
         <div class="ph3 pv4 text-shadow-1">
           <div class="tc">
             <h1 class="mb4 mt0 normal white">${content.header_title}</h1>

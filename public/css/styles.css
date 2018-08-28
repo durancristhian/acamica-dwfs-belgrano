@@ -10,6 +10,30 @@ body {
   font-family: var(--font-family);
 }
 
+#drone {
+  background: url('../assets/images/drone.png');
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 60px;
+  left: 150px;
+  position: absolute;
+  bottom: 160px;
+  transition: all 1s ease-out;
+  width: 150px;
+  z-index: 1;
+}
+
+#pilot {
+  background: url('../assets/images/pilot.png');
+  background-size: cover;
+  bottom: -2px;
+  height: 100px;
+  left: 50px;
+  position: absolute;
+  width: 100px;
+  z-index: 2;
+}
+
 .bg-main {
   background-color: var(--main-color);
 }
