@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 22",
+      "date": "29 de Agosto, 2018",
+      "description": "Arrancamos con una actividad muy divertida donde trabajamos la importancia de la comunicación. Se armó un lindo debate y nos reímos mucho con la pizza de Sabri. Luego, nos pusimos a practicar lo que aprendimos de JQuery con 2 juegos que vamos a seguir usando en las próximas clases.",
+      "summary": "https://drive.google.com/open?id=1QYk3FyfP0bKrcsAilzil80wrQfsfPIauglf5AqN65uk",
+      "multimedia": "https://drive.google.com/open?id=1VnYNrm_i0WdZAuM2mjh869fPKGP-sdjd",
+      "resources": null,
+      "picture": "/assets/lessons/22.jpg"
+    },
+    {
       "name": "Clase 21",
       "date": "27 de Agosto, 2018",
       "description": "Aprendimos sobre eventos en JavaScript y construimos un acordeón y hasta un drone que se movía siguiendo el mouse.",

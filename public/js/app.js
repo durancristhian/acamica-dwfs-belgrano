@@ -55,7 +55,7 @@ const showBaseProject = () => {
   notReactDOM.render(
     /* html */ `<h3 class="mv5 silver tc ttu">✅ Proyecto base con Node.js</h3>
       <p class="black-70 mb3 mt0">
-        <em>En el siguiente link encontrarás una carpeta con un proyecto de Node.js básico ya configurado para tener un servidor local y desarrollar en un entorno prolijo luego de que instales las dependencias. <strong>No te olvides de leer el archivo README.md para entender cuales son las instrucciones para hacer funcionar todo</strong>. Happy coding!</em>
+        <em>En el siguiente link encontrarás una carpeta con un proyecto de Node.js básico ya configurado para tener un servidor local y desarrollar en un entorno prolijo luego de que instales las dependencias. <strong>No te olvides de leer el archivo README.md para entender cuales son las instrucciones para hacer funcionar todo</strong>. Happy coding!.</em>
       </p>
       <div class="tc">
         <a href="https://drive.google.com/open?id=1E5tg2MGZ5grHZWDffiSAqKWsHWpkVfwu" target="_blank" rel="noopener noreferrer" class="b--black-20 ba bg-main bw1 dib f4 link ph4 pv3 text-shadow-1 ttu white">Descargar</a>
