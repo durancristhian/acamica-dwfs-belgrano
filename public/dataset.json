@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 23",
+      "date": "3 de Septiembre, 2018",
+      "description": "Introducción a formularios. Cambiamos la metodología para abordar el tema y en equipos 2 personas se contaba al resto como se usaban algunos tipos de input y mostrabamos ejemplos. Se armaron debates interesantes al respecto y luego Cris dio forma al concepto explicando atributos comunes, labels y buenas prácticas.",
+      "summary": "https://drive.google.com/open?id=1HNWBjsZAI1u-FHhnfUZWieZM7fLr7mk1CaaZPQjlfp0",
+      "multimedia": "https://drive.google.com/open?id=1-976f6WBrdGSVJZ5118bxkWJm6lubKiJ",
+      "resources": null,
+      "picture": "/assets/lessons/23.jpg"
+    },
+    {
       "name": "Clase 22",
       "date": "29 de Agosto, 2018",
       "description": "Arrancamos con una actividad muy divertida donde trabajamos la importancia de la comunicación. Se armó un lindo debate y nos reímos mucho con la pizza de Sabri. Luego, nos pusimos a practicar lo que aprendimos de JQuery con 2 juegos que vamos a seguir usando en las próximas clases.",
