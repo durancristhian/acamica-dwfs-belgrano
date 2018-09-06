@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 24",
+      "date": "5 de Septiembre, 2018",
+      "description": "JavaScript meets HTML forms. Aprendimos conceptos básicos de validación de formularios trabajando sobre un formulario de login al que había que agregarle magia con JS.",
+      "summary": "https://drive.google.com/open?id=14o65PEc0_1gkl83aEzZ-ExMiWk2rbMEBpyOkTyrxfKc",
+      "multimedia": null,
+      "resources": "https://drive.google.com/open?id=1LsnBYVrLbIWsNcb0DUXoqjILfkyOLUy7",
+      "picture": null
+    },
+    {
       "name": "Clase 23",
       "date": "3 de Septiembre, 2018",
       "description": "Introducción a formularios. Cambiamos la metodología para abordar el tema y en equipos 2 personas se contaba al resto como se usaban algunos tipos de input y mostrabamos ejemplos. Se armaron debates interesantes al respecto y luego Cris dio forma al concepto explicando atributos comunes, labels y buenas prácticas.",
