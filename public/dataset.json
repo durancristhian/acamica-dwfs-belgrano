@@ -1,11 +1,20 @@
 {
   "lessons": [
     {
+      "name": "Clase 25",
+      "date": "10 de Septiembre, 2018",
+      "description": "Seguimos trabajando sobre la comunicación con una actividad sobre la escalera de inferencias. Vimos matemagia y después nos pusimos a practicar, avanzar con proyectos, profundizar temas y sacarnos dudas.",
+      "summary": "https://docs.google.com/document/d/1t1MlUt19jpiKj50L4J-lRPHmht0BO3yPON8WpxUmruw/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/15e93kNEsqWMTvataCxSh5c4uNHrv30WM?usp=sharing",
+      "resources": null,
+      "picture": "/assets/lessons/25.jpg"
+    },
+    {
       "name": "Clase 24",
       "date": "5 de Septiembre, 2018",
       "description": "JavaScript meets HTML forms. Aprendimos conceptos básicos de validación de formularios trabajando sobre un formulario de login al que había que agregarle magia con JS.",
       "summary": "https://drive.google.com/open?id=14o65PEc0_1gkl83aEzZ-ExMiWk2rbMEBpyOkTyrxfKc",
-      "multimedia": null,
+      "multimedia": "https://drive.google.com/drive/folders/1gH0vS76KTsUxaosjkjNwmBc-Z02tuWYx?usp=sharing",
       "resources": "https://drive.google.com/open?id=1LsnBYVrLbIWsNcb0DUXoqjILfkyOLUy7",
       "picture": "/assets/lessons/24.jpg"
     },
