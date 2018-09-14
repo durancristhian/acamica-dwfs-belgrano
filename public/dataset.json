@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 26",
+      "date": "12 de Septiembre, 2018",
+      "description": "Hicimos actividades para practicar el diseño de la solución a un problema y entender su lógica.",
+      "summary": "https://docs.google.com/document/d/11SLiYBfFrDIWjL3C2EFFhTFMSsw76FjTg7abiIwu6Bg/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/open?id=1-CPK5dLBVsB0H-ywkkUo31tDc0RpffSV",
+      "resources": null,
+      "picture": "/assets/lessons/26.jpg"
+    },
+    {
       "name": "Clase 25",
       "date": "10 de Septiembre, 2018",
       "description": "Seguimos trabajando sobre la comunicación con una actividad sobre la escalera de inferencias. Vimos matemagia y después nos pusimos a practicar, avanzar con proyectos, profundizar temas y sacarnos dudas.",
