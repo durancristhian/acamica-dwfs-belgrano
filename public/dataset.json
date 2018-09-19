@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 27",
+      "date": "17 de Septiembre, 2018",
+      "description": "Fuimos de visita a OLX, nos recibieron bárbaro y, como dijo Mati, nos \"empapamos del mundo del software\"",
+      "summary": "https://docs.google.com/document/d/1p9p5KFI2sEy7NZ4py_mFCuUS3NPbhHKnfHD1yr6ZnIM/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/14TT_SbBX-7bAE8KIZHezqlGnVXVAFOnm?usp=sharing",
+      "resources": null,
+      "picture": "/assets/lessons/27.jpg"
+    },
+    {
       "name": "Clase 26",
       "date": "12 de Septiembre, 2018",
       "description": "Hicimos actividades para practicar el diseño de la solución a un problema y entender su lógica.",
