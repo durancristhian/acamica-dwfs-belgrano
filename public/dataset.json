@@ -1,9 +1,18 @@
 {
   "lessons": [
     {
+      "name": "Clase 28",
+      "date": "19 de Septiembre, 2018",
+      "description": "Sacamos conclusiones de la clase en OLX, hicimos una retrospectiva sobre como venimos trabajando y metimos primera en el proyecto ciudad zombie.",
+      "summary": "https://drive.google.com/open?id=1RNqeNxnBy8pLq704UyssTDX7ezctrGUbcor-9kofnCQ",
+      "multimedia": "https://drive.google.com/open?id=1ADUjnNuvx1HGO6dPcls-MQgEBWwsYkD1",
+      "resources": null,
+      "picture": "/assets/lessons/28.jpg"
+    },
+    {
       "name": "Clase 27",
       "date": "17 de Septiembre, 2018",
-      "description": "Fuimos de visita a OLX, nos recibieron bárbaro y, como dijo Mati, nos \"empapamos del mundo del software\"",
+      "description": "Fuimos de visita a OLX, nos recibieron bárbaro y, como dijo Mati, nos \"empapamos del mundo del software\".",
       "summary": "https://docs.google.com/document/d/1p9p5KFI2sEy7NZ4py_mFCuUS3NPbhHKnfHD1yr6ZnIM/edit?usp=sharing",
       "multimedia": "https://drive.google.com/drive/folders/14TT_SbBX-7bAE8KIZHezqlGnVXVAFOnm?usp=sharing",
       "resources": null,
