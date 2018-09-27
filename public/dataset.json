@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 30",
+      "date": "25 de Septiembre",
+      "description": "Tercera (y definitiva) intro a POO. Vimos como los engañamos durante mucho tiempo: todo es un objeto 😱 hablamos sobre prototipos, this, funciones constructoras y hubo premios para les valientes que se iban animando a participar y acertaban.",
+      "summary": "https://docs.google.com/document/d/1lhGpF49imKpa9lcGHAz3gu7iCBjthcXMyYIvvIuFuF4/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1LHVoWw8iomrwDmci8MYwMG9kyOj-34pO",
+      "resources": "https://drive.google.com/drive/folders/1hOrCE4czyAyK8ph571aP52oKiY2VLmzB",
+      "picture": "/assets/lessons/30.jpg"
+    },
+    {
       "name": "Clase 29",
       "date": "24 de Septiembre, 2018",
       "description": "Empezamos a ver objetos para poder encarar Ciudad Zombie. Avanzamos con los proyectos en los que estamos trabajando.",
