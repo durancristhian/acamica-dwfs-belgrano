@@ -1,8 +1,17 @@
 {
   "lessons": [
     {
+      "name": "Clase 31",
+      "date": "1 de Octubre, 2018",
+      "description": "Aprendimos sobre let y const, scopes y closures. Nos fuimos en silencio porque nuestros cerebros tuvieron una sobredosis de JavaScript.",
+      "summary": "https://drive.google.com/open?id=1KW_O1LDDQ7-2gnRJ9C4pv-pG_SumkeVk0fIY7RQ8IWg",
+      "multimedia": "https://drive.google.com/open?id=1xJGfBEddlT7EKiHXatOT3sn9_9PUfcYV",
+      "resources": null,
+      "picture": null
+    },
+    {
       "name": "Clase 30",
-      "date": "25 de Septiembre",
+      "date": "25 de Septiembre, 2018",
       "description": "Tercera (y definitiva) intro a POO. Vimos como los engañamos durante mucho tiempo: todo es un objeto 😱 hablamos sobre prototipos, this, funciones constructoras y hubo premios para les valientes que se iban animando a participar y acertaban.",
       "summary": "https://docs.google.com/document/d/1lhGpF49imKpa9lcGHAz3gu7iCBjthcXMyYIvvIuFuF4/edit?usp=sharing",
       "multimedia": "https://drive.google.com/drive/folders/1LHVoWw8iomrwDmci8MYwMG9kyOj-34pO",
