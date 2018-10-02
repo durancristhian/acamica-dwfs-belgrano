@@ -163,7 +163,7 @@ const showProgress = (content, lessonsLength) => {
   notReactDOM.render(
     /* html */ `<h3 class="mv5 silver tc ttu">Información general 🤓</h3>
     <h4 class="mv0">
-      Progreso del curso:
+      Progreso de la carrera:
       <span class="color-main">${percentageAsString}%</span>, ${lessonsLength} clases de ${lessons_amount}
     </h4>
     <div class="b--black-20 ba bg-light-gray bw1 mt5 relative">
