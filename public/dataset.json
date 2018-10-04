@@ -1,11 +1,20 @@
 {
   "lessons": [
     {
+      "name": "Clase 32",
+      "date": "3 de Octubre, 2018",
+      "description": "Hicimos torres de globos para generar un debate sobre trabajo en equipo, responsabilidades y hasta lo relacionamos con algoritmos. Luego practicamos crear nuestro propio cajero con objetos y propiedades privadas para ocultar la guita. Hubiéramos terminado si Cris escribía bien los enunciados.",
+      "summary": "https://drive.google.com/open?id=1ESdKK04-fCuRq8mYL3_e80taknS-MYsXlL55S5b8GFY",
+      "multimedia": "https://drive.google.com/open?id=1xJGfBEddlT7EKiHXatOT3sn9_9PUfcYV",
+      "resources": "https://drive.google.com/open?id=15h2_pHvuAdO_DxXql_F4MEIWNag8vLxb",
+      "picture": "/assets/lessons/32.jpg"
+    },
+    {
       "name": "Clase 31",
       "date": "1 de Octubre, 2018",
       "description": "Aprendimos sobre let y const, scopes y closures. Nos fuimos en silencio porque nuestros cerebros tuvieron una sobredosis de JavaScript.",
       "summary": "https://drive.google.com/open?id=1KW_O1LDDQ7-2gnRJ9C4pv-pG_SumkeVk0fIY7RQ8IWg",
-      "multimedia": "https://drive.google.com/open?id=1xJGfBEddlT7EKiHXatOT3sn9_9PUfcYV",
+      "multimedia": "https://drive.google.com/open?id=1PzBIhi6DRBTFfLdSs-CfqWpkmnNC4WTG",
       "resources": null,
       "picture": null
     },
