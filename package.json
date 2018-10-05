@@ -6,7 +6,7 @@
     "alias": "now alias --token $NOW_TOKEN",
     "build-html-prod": "node scripts/build-html",
     "clean-deploys": "now rm $INSTANCE_NAME --safe --yes --token $NOW_TOKEN",
-    "deploy": "cd dist && now --local-config=../now.json --static --token $NOW_TOKEN",
+    "deploy": "cd public && now --local-config=../now.json --static --token $NOW_TOKEN",
     "fetch-dataset": "env-cmd .env node scripts/fetch-dataset"
   },
   "repository": {
