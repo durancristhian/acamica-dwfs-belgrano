@@ -17,6 +17,7 @@ deploy:
   on:
     branch: master
 after_deploy:
+  - npm run alias
   - npm run clean-deploys
 env:
   matrix:

@@ -3,11 +3,11 @@
   "version": "11.7.0",
   "description": "acamica-dwfs-belgrano",
   "scripts": {
+    "alias": "now alias --token $NOW_TOKEN",
     "build-html-prod": "node scripts/build-html",
     "clean-deploys": "now rm $INSTANCE_NAME --safe --yes --token $NOW_TOKEN",
-    "deploy": "now alias $(now --token $NOW_TOKEN) $INSTANCE_NAME --token=$NOW_TOKEN",
-    "fetch-dataset": "env-cmd .env node scripts/fetch-dataset",
-    "start": "serve public"
+    "deploy": "cd dist && now --local-config=../now.json --static --token $NOW_TOKEN",
+    "fetch-dataset": "env-cmd .env node scripts/fetch-dataset"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,6 @@
     "url": "https://github.com/durancristhian/acamica-dwfs-belgrano/issues"
   },
   "homepage": "https://github.com/durancristhian/acamica-dwfs-belgrano#readme",
-  "dependencies": {
-    "serve": "^10.0.2"
-  },
   "devDependencies": {
     "env-cmd": "^8.0.2",
     "eslint-plugin-prettier": "^2.6.2",
