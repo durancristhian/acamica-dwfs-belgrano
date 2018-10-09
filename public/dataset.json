@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 33",
+      "date": "8 de Octubre, 2018",
+      "description": "Aprendimos sobre herencia, .call, .bind y como construir objetos que comparten atributos y comportamiento.",
+      "summary": "https://drive.google.com/open?id=1phg6vAm0P29h2wOgTs3jCuBABD0Dpl6f63XLzdASUcM",
+      "multimedia": "https://drive.google.com/open?id=1TH1Ao_FgMswdSmnGUp1RdEA5pb6dEAcr",
+      "resources": "https://drive.google.com/open?id=1JM9ANu3tmVyWnJhosVPrMdbea7cqZ55v",
+      "picture": null
+    },
+    {
       "name": "Clase 32",
       "date": "3 de Octubre, 2018",
       "description": "Hicimos torres de globos para generar un debate sobre trabajo en equipo, responsabilidades y hasta lo relacionamos con algoritmos. Luego practicamos crear nuestro propio cajero con objetos y propiedades privadas para ocultar la guita. Hubiéramos terminado si Cris escribía bien los enunciados.",
