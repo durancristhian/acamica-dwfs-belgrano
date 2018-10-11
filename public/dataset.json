@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 34",
+      "date": "10 de Octubre, 2018",
+      "description": "Intro a metodologías de desarrollo ágil usando Scrum. Primero charla para entender como es el proceso y los roles involucrados y luego una dinámica donde armamos las cabañas para Caro (Las carolañas?) aplicando lo aprendido.",
+      "summary": "https://docs.google.com/document/d/1vTcbHWnCGKh26BpyeCyVR3aYhW6epVFL7rqKx_xpR20/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/open?id=11d0JQpfsKD6zKGWxEOpcoxlIcUJyQvT2",
+      "resources": null,
+      "picture": "/assets/lessons/34.jpg"
+    },
+    {
       "name": "Clase 33",
       "date": "8 de Octubre, 2018",
       "description": "Aprendimos sobre herencia, .call, .bind y como construir objetos que comparten atributos y comportamiento.",

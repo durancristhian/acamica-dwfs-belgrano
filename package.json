@@ -7,7 +7,8 @@
     "build-html-prod": "node scripts/build-html",
     "clean-deploys": "now rm $INSTANCE_NAME --safe --yes --token $NOW_TOKEN",
     "deploy": "cd public && now --local-config=../now.json --token $NOW_TOKEN",
-    "fetch-dataset": "env-cmd .env node scripts/fetch-dataset"
+    "fetch-dataset": "env-cmd .env node scripts/fetch-dataset",
+    "start": "serve public"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "isomorphic-fetch": "^2.2.1",
     "prettier": "^1.14.3",
     "replace-in-file": "^3.4.2",
+    "serve": "^10.0.2",
     "stylelint": "^9.5.0",
     "stylelint-config-standard": "^18.2.0"
   },
