@@ -1,6 +1,24 @@
 {
   "lessons": [
     {
+      "name": "Clase 36",
+      "date": "22 de octubre, 2018",
+      "description": "Hicimos una introducción al proyecto Reservando y empezamos a meternos en el mundo del Testing",
+      "summary": "https://docs.google.com/document/d/1M-JjxJ16vYpihTxp-4v4UdotLvD8rW0cRwaR8g0ca5o/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1BogE9J2SGfCJtHIm4AmFubGh7-8JGd3C?usp=sharing",
+      "resources": "https://drive.google.com/drive/folders/1cjGrlfB9VqDOkGPfn97UwWe29F-OM5Cq?usp=sharing",
+      "picture": null
+    },
+    {
+      "name": "Clase 35",
+      "date": "17 de octubre, 2018",
+      "description": "Aprovechamos el cierre de Ciudad Zombie para trabajar sobre nuestros proyectos y celebrar que llegamos a la mitad de la carrera",
+      "summary": "https://docs.google.com/document/d/1WsCpy8jZ3v0RyVyOfVkJLtitkFi0OWdGcTn1bAgxFS0/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1WkjsX6opb2ORj4VpPZs5_FMjf8v8xwuE?usp=sharing",
+      "resources": null,
+      "picture": null
+    },
+    {
       "name": "Clase 34",
       "date": "10 de Octubre, 2018",
       "description": "Intro a metodologías de desarrollo ágil usando Scrum. Primero charla para entender como es el proceso y los roles involucrados y luego una dinámica donde armamos las cabañas para Caro (Las carolañas?) aplicando lo aprendido.",
