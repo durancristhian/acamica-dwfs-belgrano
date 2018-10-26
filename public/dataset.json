@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 37",
+      "date": "24 de octubre, 2018",
+      "description": "Aprendimos nuevos métodos y a partir de eso vimos de qué se trata el Refactoring.",
+      "summary": "https://docs.google.com/document/d/1vdkjZiv0qqlgsXyBi_Rdbq3rtYl2SJC8bxtfMVIhyWU/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1L6xVnR4kvoJiv4KqW0YNsDbN6Qs4YLZ1?usp=sharing",
+      "resources": null,
+      "picture": null
+    },
+    {
       "name": "Clase 36",
       "date": "22 de octubre, 2018",
       "description": "Hicimos una introducción al proyecto Reservando y empezamos a meternos en el mundo del Testing",
@@ -20,7 +29,7 @@
     },
     {
       "name": "Clase 34",
-      "date": "10 de Octubre, 2018",
+      "date": "10 de octubre, 2018",
       "description": "Intro a metodologías de desarrollo ágil usando Scrum. Primero charla para entender como es el proceso y los roles involucrados y luego una dinámica donde armamos las cabañas para Caro (Las carolañas?) aplicando lo aprendido.",
       "summary": "https://docs.google.com/document/d/1vTcbHWnCGKh26BpyeCyVR3aYhW6epVFL7rqKx_xpR20/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=11d0JQpfsKD6zKGWxEOpcoxlIcUJyQvT2",
@@ -29,7 +38,7 @@
     },
     {
       "name": "Clase 33",
-      "date": "8 de Octubre, 2018",
+      "date": "8 de octubre, 2018",
       "description": "Aprendimos sobre herencia, .call, .bind y como construir objetos que comparten atributos y comportamiento.",
       "summary": "https://drive.google.com/open?id=1phg6vAm0P29h2wOgTs3jCuBABD0Dpl6f63XLzdASUcM",
       "multimedia": "https://drive.google.com/open?id=1TH1Ao_FgMswdSmnGUp1RdEA5pb6dEAcr",
@@ -38,7 +47,7 @@
     },
     {
       "name": "Clase 32",
-      "date": "3 de Octubre, 2018",
+      "date": "3 de octubre, 2018",
       "description": "Hicimos torres de globos para generar un debate sobre trabajo en equipo, responsabilidades y hasta lo relacionamos con algoritmos. Luego practicamos crear nuestro propio cajero con objetos y propiedades privadas para ocultar la guita. Hubiéramos terminado si Cris escribía bien los enunciados.",
       "summary": "https://drive.google.com/open?id=1ESdKK04-fCuRq8mYL3_e80taknS-MYsXlL55S5b8GFY",
       "multimedia": "https://drive.google.com/open?id=1xJGfBEddlT7EKiHXatOT3sn9_9PUfcYV",
@@ -47,7 +56,7 @@
     },
     {
       "name": "Clase 31",
-      "date": "1 de Octubre, 2018",
+      "date": "1 de octubre, 2018",
       "description": "Aprendimos sobre let y const, scopes y closures. Nos fuimos en silencio porque nuestros cerebros tuvieron una sobredosis de JavaScript.",
       "summary": "https://drive.google.com/open?id=1KW_O1LDDQ7-2gnRJ9C4pv-pG_SumkeVk0fIY7RQ8IWg",
       "multimedia": "https://drive.google.com/open?id=1PzBIhi6DRBTFfLdSs-CfqWpkmnNC4WTG",
@@ -56,7 +65,7 @@
     },
     {
       "name": "Clase 30",
-      "date": "25 de Septiembre, 2018",
+      "date": "25 de septiembre, 2018",
       "description": "Tercera (y definitiva) intro a POO. Vimos como los engañamos durante mucho tiempo: todo es un objeto 😱 hablamos sobre prototipos, this, funciones constructoras y hubo premios para les valientes que se iban animando a participar y acertaban.",
       "summary": "https://docs.google.com/document/d/1lhGpF49imKpa9lcGHAz3gu7iCBjthcXMyYIvvIuFuF4/edit?usp=sharing",
       "multimedia": "https://drive.google.com/drive/folders/1LHVoWw8iomrwDmci8MYwMG9kyOj-34pO",
@@ -65,7 +74,7 @@
     },
     {
       "name": "Clase 29",
-      "date": "24 de Septiembre, 2018",
+      "date": "24 de septiembre, 2018",
       "description": "Empezamos a ver objetos para poder encarar Ciudad Zombie. Avanzamos con los proyectos en los que estamos trabajando.",
       "summary": "https://docs.google.com/document/d/1iPN_WGwc9jJrMwqVu26WNW9SNmnPkj0BMJ9595BdNHg/edit?usp=sharing",
       "multimedia": "https://drive.google.com/drive/folders/1TOUX2o7qu2V77ooOQcIh7lx721x8LfP1?usp=sharing",
@@ -74,7 +83,7 @@
     },
     {
       "name": "Clase 28",
-      "date": "19 de Septiembre, 2018",
+      "date": "19 de septiembre, 2018",
       "description": "Sacamos conclusiones de la clase en OLX, hicimos una retrospectiva sobre como venimos trabajando y metimos primera en el proyecto ciudad zombie.",
       "summary": "https://drive.google.com/open?id=1RNqeNxnBy8pLq704UyssTDX7ezctrGUbcor-9kofnCQ",
       "multimedia": "https://drive.google.com/open?id=1ADUjnNuvx1HGO6dPcls-MQgEBWwsYkD1",
@@ -83,7 +92,7 @@
     },
     {
       "name": "Clase 27",
-      "date": "17 de Septiembre, 2018",
+      "date": "17 de septiembre, 2018",
       "description": "Fuimos de visita a OLX, nos recibieron bárbaro y, como dijo Mati, nos \"empapamos del mundo del software\".",
       "summary": "https://docs.google.com/document/d/1p9p5KFI2sEy7NZ4py_mFCuUS3NPbhHKnfHD1yr6ZnIM/edit?usp=sharing",
       "multimedia": "https://drive.google.com/drive/folders/14TT_SbBX-7bAE8KIZHezqlGnVXVAFOnm?usp=sharing",
@@ -92,7 +101,7 @@
     },
     {
       "name": "Clase 26",
-      "date": "12 de Septiembre, 2018",
+      "date": "12 de septiembre, 2018",
       "description": "Hicimos actividades para practicar el diseño de la solución a un problema y entender su lógica.",
       "summary": "https://docs.google.com/document/d/11SLiYBfFrDIWjL3C2EFFhTFMSsw76FjTg7abiIwu6Bg/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1-CPK5dLBVsB0H-ywkkUo31tDc0RpffSV",
@@ -101,7 +110,7 @@
     },
     {
       "name": "Clase 25",
-      "date": "10 de Septiembre, 2018",
+      "date": "10 de septiembre, 2018",
       "description": "Seguimos trabajando sobre la comunicación con una actividad sobre la escalera de inferencias. Vimos matemagia y después nos pusimos a practicar, avanzar con proyectos, profundizar temas y sacarnos dudas.",
       "summary": "https://docs.google.com/document/d/1t1MlUt19jpiKj50L4J-lRPHmht0BO3yPON8WpxUmruw/edit?usp=sharing",
       "multimedia": "https://drive.google.com/drive/folders/15e93kNEsqWMTvataCxSh5c4uNHrv30WM?usp=sharing",
@@ -110,7 +119,7 @@
     },
     {
       "name": "Clase 24",
-      "date": "5 de Septiembre, 2018",
+      "date": "5 de septiembre, 2018",
       "description": "JavaScript meets HTML forms. Aprendimos conceptos básicos de validación de formularios trabajando sobre un formulario de login al que había que agregarle magia con JS.",
       "summary": "https://drive.google.com/open?id=14o65PEc0_1gkl83aEzZ-ExMiWk2rbMEBpyOkTyrxfKc",
       "multimedia": "https://drive.google.com/drive/folders/1gH0vS76KTsUxaosjkjNwmBc-Z02tuWYx?usp=sharing",
@@ -119,7 +128,7 @@
     },
     {
       "name": "Clase 23",
-      "date": "3 de Septiembre, 2018",
+      "date": "3 de septiembre, 2018",
       "description": "Introducción a formularios. Cambiamos la metodología para abordar el tema y en equipos 2 personas se contaba al resto como se usaban algunos tipos de input y mostrabamos ejemplos. Se armaron debates interesantes al respecto y luego Cris dio forma al concepto explicando atributos comunes, labels y buenas prácticas.",
       "summary": "https://drive.google.com/open?id=1HNWBjsZAI1u-FHhnfUZWieZM7fLr7mk1CaaZPQjlfp0",
       "multimedia": "https://drive.google.com/open?id=1-976f6WBrdGSVJZ5118bxkWJm6lubKiJ",
@@ -128,7 +137,7 @@
     },
     {
       "name": "Clase 22",
-      "date": "29 de Agosto, 2018",
+      "date": "29 de agosto, 2018",
       "description": "Arrancamos con una actividad muy divertida donde trabajamos la importancia de la comunicación. Se armó un lindo debate y nos reímos mucho con la pizza de Sabri. Luego, nos pusimos a practicar lo que aprendimos de JQuery con 2 juegos que vamos a seguir usando en las próximas clases.",
       "summary": "https://drive.google.com/open?id=1QYk3FyfP0bKrcsAilzil80wrQfsfPIauglf5AqN65uk",
       "multimedia": "https://drive.google.com/open?id=1VnYNrm_i0WdZAuM2mjh869fPKGP-sdjd",
@@ -137,7 +146,7 @@
     },
     {
       "name": "Clase 21",
-      "date": "27 de Agosto, 2018",
+      "date": "27 de agosto, 2018",
       "description": "Aprendimos sobre eventos en JavaScript y construimos un acordeón y hasta un drone que se movía siguiendo el mouse.",
       "summary": "https://drive.google.com/open?id=1dDvLC1X8tB8pd8S1bHAxSAzeT11kt2y_MmUMPtGTtZ8",
       "multimedia": "https://drive.google.com/open?id=1G4ktriM-0j_QZRtHvUO2Rm0-eKk2O8rC",
@@ -146,7 +155,7 @@
     },
     {
       "name": "Clase 20",
-      "date": "22 de Agosto, 2018",
+      "date": "22 de agosto, 2018",
       "description": "Tuvimos una introducción a objetos y a JQuery. El payazombie nos acompañó después del break para practicar lo visto en clase.",
       "summary": "https://drive.google.com/open?id=1L0ogHPaAmB8w6jhGkGH_d5xmaKDZVkglvjtGScbzfwU",
       "multimedia": "https://drive.google.com/open?id=1-8rzVFtfUXR7jXyBWw9pJv2X_vmbIUb3",
@@ -155,7 +164,7 @@
     },
     {
       "name": "Clase 19",
-      "date": "15 de Agosto, 2018",
+      "date": "15 de agosto, 2018",
       "description": "Aprendimos a como crear nodos de DOM desde JavaScript usando a nuestro amigo el budita luego de una breve introducción de objetos. Después del break terminamos el proyecto paralelo.",
       "summary": "https://drive.google.com/open?id=1FCfex77wAKj6k_y6UXFsqBTdZ7QRFFBskjLCh__fsb8",
       "multimedia": "https://drive.google.com/open?id=1i5u_QtZTzw6gAFdj-EsW-kPeCUY19s5o",
@@ -164,7 +173,7 @@
     },
     {
       "name": "Clase 18",
-      "date": "13 de Agosto, 2018",
+      "date": "13 de agosto, 2018",
       "description": "Hicimos un repaso de arrays y bucles para llegar metidos al tema nuevo: matrices. Planteamos varios ejercicios que resolvimos entre todos y con el proyecto paralelo pudimos practicar un poco más.",
       "summary": "https://drive.google.com/open?id=1tN0Lop-C5Bu-crVgdOCsIUrtWMu23oE7D9aF66XA8WY",
       "multimedia": "https://drive.google.com/open?id=1lsj6hoHU5As2tzcMwsauOPE2aw2XTmK2",
@@ -173,7 +182,7 @@
     },
     {
       "name": "Clase 17",
-      "date": "8 de Agosto, 2018",
+      "date": "8 de agosto, 2018",
       "description": "Hicimos un repaso furioso de bucles y ejercicios para curiosos. ¡Salia humo de algunas cabezas!",
       "summary": "https://drive.google.com/open?id=1-I6MdBvBAvf5CRNm9PsVKn3wGrpb6hK7dVjJH9UjJBw",
       "multimedia": "https://drive.google.com/open?id=1-6oymVapEqjFgAhL474kpQhpWyND9fBj",
@@ -182,7 +191,7 @@
     },
     {
       "name": "Clase 16",
-      "date": "6 de Agosto, 2018",
+      "date": "6 de agosto, 2018",
       "description": "Teban nos enseño sobre bucles. Dimos muchas vueltas (cuak) pero tuvimos un shock de conocimiento importante. Aprendimos sobre ciclos while y for con muchis ejercicios y hasta quedó 1 de tarea.",
       "summary": "https://docs.google.com/document/d/1d_zhn2xwTX8Hy-MIKAzAhso2P-7bh3NW5Oc4iNJq4lw/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1-5i8c4vl7isNmb33WXT1MOVv_1E0cpp1",
@@ -191,7 +200,7 @@
     },
     {
       "name": "Clase 15",
-      "date": "1 de Agosto, 2018",
+      "date": "1 de agosto, 2018",
       "description": "Aprendimos sobre arrays multidimensionales haciendo algunos ejercicios todos juntos y luego trabajando en parejas. Empezamos con el proyecto paralelo y debatimos bastante sobre lo que fuimos aprendiendo.",
       "summary": "https://drive.google.com/open?id=1bGC-W-ZSw_s7vt7QQRsdYMV9n7IRY5Ahh_7noiHWb90",
       "multimedia": "https://drive.google.com/open?id=1kkJW5em9tLLJYjCPp-_KI_uFJwA8ka2P",
@@ -200,7 +209,7 @@
     },
     {
       "name": "Clase 14",
-      "date": "30 de Julio, 2018",
+      "date": "30 de julio, 2018",
       "description": "El mentor Cristhian con H después de la T nos introdujo en el tema Arrays: aprendimos por qué es útil, como leer y asignar valores a sus posiciones usando índices y por medio de ejercicios en clase, como se integra conceptualmente con todo lo que veníamos haciendo.",
       "summary": "https://docs.google.com/document/d/1HRkpBxWbHwS_b12VYG0EAvCX0lZA71_VylKDZ9sCqCA/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1NYqu97nfywfAjZOOdgMbN0dKl4wBQvAU",
@@ -209,7 +218,7 @@
     },
     {
       "name": "Clase 13",
-      "date": "25 de Julio, 2018",
+      "date": "25 de julio, 2018",
       "description": "Eva nos maravilló con una clase a puras demos donde aprendimos sobre transform, animations, responsive design, media-queries, flexbox y css grids.",
       "summary": "https://docs.google.com/document/d/1b9k8FliXteUKiOPjYXqf4at1pEcZIsLkXoHUmA1HDhw/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1f_OOj6R-YPphvHm3cH5_7Oscw1oavvKc",
@@ -218,7 +227,7 @@
     },
     {
       "name": "Clase 12",
-      "date": "23 de Julio, 2018",
+      "date": "23 de julio, 2018",
       "description": "Tuvimos un primer contacto con GIT como herramienta para el control de versiones. Teban nos dio un pantallazo de por qué usamos la herramienta, como crear un repositorio, como trabajar con un branch y combinar modificaciones con la rama principal del repositorio (master).",
       "summary": "https://docs.google.com/document/d/1-j91O7Hdyy0ji801DFbP1C7jVbV4NlizAG7mLyloSG4/edit?usp=sharing",
       "multimedia": "https://drive.google.com/drive/u/0/folders/1wKeZRmlA7b0IlfgHWjcJPRuBTA-lNOgs",
@@ -227,7 +236,7 @@
     },
     {
       "name": "Clase 11",
-      "date": "4 de Julio, 2018",
+      "date": "4 de julio, 2018",
       "description": "Aprendimos más sobre funciones. Marcamos diferencia entre procedimientos (funciones que uso para \"hacer\" algo) de funciones (funciones que uso para \"devolver\" algo). Intentando mostrar ventajas de hacer funciones chicas y enfocadas en resolver solo 1 cosa, pero bien.",
       "summary": "https://drive.google.com/open?id=1XPQvbDfjQ3_6Hw7GZNhpX37rRFgfN02S1QvXY86gxGE",
       "multimedia": "https://drive.google.com/open?id=1t9yNaquuvZfVjHL-4av1TuTMMi45I-cg",
@@ -236,7 +245,7 @@
     },
     {
       "name": "Clase 10",
-      "date": "2 de Julio, 2018",
+      "date": "2 de julio, 2018",
       "description": "Construimos una app contador para masterizar el concepto de estado en una aplicación y aprender sobre funciones, event listeners y como poder actualizar la UI por medio de JavaScript usando document.getElementById.",
       "summary": "https://drive.google.com/open?id=1issBYOdHdukqMbRxoZ4m5Gap1fCK52rqRVz-M0rrj8k",
       "multimedia": "https://drive.google.com/open?id=1mZ3PmaVoT9mnRqrNBkb-9OVM5WVqR7wg",
@@ -245,7 +254,7 @@
     },
     {
       "name": "Clase 9",
-      "date": "27 de Junio, 2018",
+      "date": "27 de junio, 2018",
       "description": "Entender el rol que tiene JavaScript a la hora de construir aplicaciones web diferenciando la interfaz (HTML y CSS) del estado de la aplicación (JavaScript). Aprendimos a usar console.log, variables, tipos de datos, operadores y condicionales por medio de ejercicios.",
       "summary": "https://drive.google.com/open?id=1zXZGF1AD4zc6giVz3GzjpZSQo0vNDLMSdPlvnS808JM",
       "multimedia": "https://drive.google.com/open?id=1pBovCcgUhOzTv9ZewoUAQzQWmFcBLwTw",
@@ -254,7 +263,7 @@
     },
     {
       "name": "Clase 8",
-      "date": "25 de Junio, 2018",
+      "date": "25 de junio, 2018",
       "description": "Repaso de conceptos de HTML y CSS a partir del proyecto CV donde también agregramos cambios en el proyecto de otra persona. Luego repasamos conceptos básicos de JavaScript como variables, parseInt y funciones.",
       "summary": "https://drive.google.com/open?id=1SvusbZY9SnuMZTcVLslCS0nLh4Vjla54eG5f-hz3pyQ",
       "multimedia": "https://drive.google.com/open?id=1wFIe_k5yO6_aaQ3-Zu3fM_SSEZgAI5Me",
@@ -263,7 +272,7 @@
     },
     {
       "name": "Clase 7",
-      "date": "18 de Junio, 2018",
+      "date": "18 de junio, 2018",
       "description": "Primer acercamiento con JavaScript: Uso de prompt, console.log, variables, document.write y operadores en una pequeña aplicación que permitía conocer nuestro peso en la luna.",
       "summary": "https://docs.google.com/document/d/1Co4ZCKOVu4t_eshGINdMYJm-Axe7iv-FE69om4sisAQ/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1j_-PJfdfrYtNU4073yjig2ZW7fAuem6w",
@@ -272,7 +281,7 @@
     },
     {
       "name": "Clase 6",
-      "date": "13 de Junio, 2018",
+      "date": "13 de junio, 2018",
       "description": "Posicionamiento en CSS. Vimos las distintas formas en las que podemos ubicar un elemento en la pantalla utilizando la propiedad position. También aprendimos sobre transition y transform.",
       "summary": "https://docs.google.com/document/d/1S8sZt1P8l882_ZLr3OzqR6r5Br97yzuvRSSrCJAMYF4/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1AmUd96r_m7BM9LZet6SKMhhDtElJMpXr",
@@ -281,7 +290,7 @@
     },
     {
       "name": "Clase 5",
-      "date": "11 de Junio, 2018",
+      "date": "11 de junio, 2018",
       "description": "Armado de columnas usando float. Aprendimos sobre como el navegador calcula el ancho y alto de los elementos entendiendo como funciona el modelo de caja en CSS.",
       "summary": "https://docs.google.com/document/d/1_0XEHQcCSkpG0G-5LKaL0M71sPGc8_Dk4IMg5hYYhH4/edit?usp=sharing",
       "multimedia": null,
@@ -290,7 +299,7 @@
     },
     {
       "name": "Clase 4",
-      "date": "6 de Junio, 2018",
+      "date": "6 de junio, 2018",
       "description": "Introducción a CSS. Estilos generales y específicos. Selectores básicos y especificidad.",
       "summary": "https://drive.google.com/open?id=1CNgTGzbwzHAodgKjHK-2MKxUJy3ojZfV3_HaWkYYzos",
       "multimedia": "https://drive.google.com/open?id=1MzaRmxrVtgqYFp0qard_vSMss_R-er_L",
@@ -299,7 +308,7 @@
     },
     {
       "name": "Clase 3",
-      "date": "4 de Junio, 2018",
+      "date": "4 de junio, 2018",
       "description": "Profundizamos en HTML y practicamos para afianzar conceptos.",
       "summary": "https://docs.google.com/document/d/1b_IZKaqfgSYbglTPhjDqii0Ag8gMa0avD46HH_3BVHI/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1oY_jWwSnSkrflNiLabm_lypXm8ovUB06",
@@ -308,7 +317,7 @@
     },
     {
       "name": "Clase 2",
-      "date": "30 de Mayo, 2018",
+      "date": "30 de mayo, 2018",
       "description": "Introducción a las herramientas con las que vamos a trabajar: Editor de texto y Navegador. Creamos nuestra primera página con HTML y la subimos a internet usando 'now'.",
       "summary": "https://docs.google.com/document/d/1zUXCJ44Nu2NSxI1Yow3_7NZvuSCLgtq0t9DLc29rAYk/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1CFj7c4N6ycsnQd1-snd9IynhGLNC5PtP",
@@ -317,7 +326,7 @@
     },
     {
       "name": "Clase 1",
-      "date": "28 de Mayo, 2018",
+      "date": "28 de mayo, 2018",
       "description": "Introducción al contexto teórico y técnico de la carrera.",
       "summary": "https://docs.google.com/document/d/1XNE9K2xR2UJTF7hOYka32I9klbs6hV3CA3N7CEzFliA/edit?usp=sharing",
       "multimedia": "https://drive.google.com/open?id=1ft7FmAR5YDoD1G6rKeYJmOELFGYBcxet",
