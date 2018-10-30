@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 38",
+      "date": "29 de octubre, 2018",
+      "description": "Vimos de qué se trata la metodología TDD y después la pusimos en práctica con unos ejercicios. También comimos cremona",
+      "summary": "https://docs.google.com/document/d/1J68snRM8DHprmIKQrD7UtHgD8Kj3va2-5nnOfcWZoSw/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/11PZkvDmbQ_zgJYpN8Tow1ouPtryFmiB-?usp=sharing",
+      "resources": "https://drive.google.com/drive/folders/1W4jV5iVeFNFBr4etQ7Jwi0plw3E4BpIa?usp=sharing",
+      "picture": "/assets/lessons/38.jpg"
+    },
+    {
       "name": "Clase 37",
       "date": "24 de octubre, 2018",
       "description": "Aprendimos nuevos métodos y a partir de eso vimos de qué se trata el Refactoring.",
