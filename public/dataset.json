@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 39",
+      "date": "31 de octubre, 2018",
+      "description": "Arrancamos jugando un Heads Up para reforzar conceptos y además nos divertimos mucho. Después nos dedicamos a practicar, trabajar sobre dudas y repasar.",
+      "summary": "https://docs.google.com/document/d/191KMGF6vcaSi-DYfzuShIyMMx8q6Sob9-14q4SQ6ViY/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1MUjcTOzawJ3uP1n85OxfB6DJSX9B3NrK?usp=sharing",
+      "resources": null,
+      "picture": null
+    },
+    {
       "name": "Clase 38",
       "date": "29 de octubre, 2018",
       "description": "Vimos de qué se trata la metodología TDD y después la pusimos en práctica con unos ejercicios. También comimos cremona",
