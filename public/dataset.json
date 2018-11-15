@@ -1,6 +1,33 @@
 {
   "lessons": [
     {
+      "name": "Clase 43",
+      "date": "14 de noviembre, 2018",
+      "description": "Cerramos los temas del proyecto Encuestados con una buena práctica de implementación de MVC. Nos preparamos para descansar el finde largo y volver con todo",
+      "summary": "https://docs.google.com/document/d/1s3BDECSjwi_0SytO_-MQuLNk1cDV02FcpdK6Lruu95M/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1utbnHxqilZfFETmULaUV-KXUbiKOGdju?usp=sharing",
+      "resources": "https://drive.google.com/drive/folders/1n6-iQ6AF9FtQGgb7rO4i564oBp9ZKKz6?usp=sharing",
+      "picture": null
+    },
+    {
+      "name": "Clase 42",
+      "date": "12 de noviembre, 2018",
+      "description": "Seguimos trabajando con MVC (embicí). Creamos una to-do list para poner en práctica la implementación.",
+      "summary": "https://docs.google.com/document/d/1uQtiVo8HaElURy9RkxSNlerIrmq6l1RQ-mS8zs3rCQQ/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1-NfC4U4KPtbRSS426dJWk7MstRRyxN8B?usp=sharing",
+      "resources": "https://drive.google.com/drive/folders/1TCo5by98UJ41m1mvqdPbEnp0EW8t_ku7?usp=sharing",
+      "picture": null
+    },
+    {
+      "name": "Clase 41",
+      "date": "7 de noviembre, 2018",
+      "description": "Tuvimos una breve instancia de reflexión y después nos metimos con el proyecto Encuestados. Aprendimos un poco sobre MVC y LocalStorage",
+      "summary": "https://docs.google.com/document/d/1AQbAoYwfw121Tmj0dT2sGiB5nBQVIY8VvrofBx9WG_Y/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1vEoBvAOrvdZA9ce-Ue3lNdyBRj1hTD8m?usp=sharing",
+      "resources": "https://drive.google.com/drive/folders/1g_P3I3-nR3CfyK6VQ2GbBBRlvf3HMTCG?usp=sharing",
+      "picture": null
+    },
+    {
       "name": "Clase 40",
       "date": "5 de noviembre, 2018",
       "description": "Recibimos noviembre poniendo en juego nuestras habilidades para resolver problemas con una clase especial sobre algoritmos y estructuras de datos.",
