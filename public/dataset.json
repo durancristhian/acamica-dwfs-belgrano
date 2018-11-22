@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 44",
+      "date": "21 de noviembre, 2018",
+      "description": "Reflexionamos sobre las principales dificultades con las que nos enfrentamos al momento de avanzar con los proyectos y pensamos estrategias concretas para hacerles frente.",
+      "summary": "https://docs.google.com/document/d/1WXWlI5UoU1_-aHWW4ZNu2vvmj9OwUax9K0u0npUghf0/edit?usp=sharing ",
+      "multimedia": null,
+      "resources": "https://drive.google.com/drive/folders/1Z6rDcAgHSkUA7BYc4oeGmLzp8Q0ObBwa?usp=sharing",
+      "picture": null
+    },
+    {
       "name": "Clase 43",
       "date": "14 de noviembre, 2018",
       "description": "Cerramos los temas del proyecto Encuestados con una buena práctica de implementación de MVC. Nos preparamos para descansar el finde largo y volver con todo",
