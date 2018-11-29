@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 46",
+      "date": "28 de noviembre, 2018",
+      "description": "Pusimos código a todo lo que hablamos de requests HTTP. Aprendimos sobre fetch (y promesas), usamos postman y empezamos a conectarnos con un backend, donde incluso pispeamos como es la implementación de las rutas con un ejemplo de la vida real.",
+      "summary": "https://drive.google.com/open?id=17KA-qFJaokwP-r_-RYyjEFFdxj8o24B4inVpUGJSEIU",
+      "multimedia": null,
+      "resources": "https://drive.google.com/open?id=15Cb-iwP-jRGQapuY6IOgyktnNX4kQ1aO",
+      "picture": null
+    },
+    {
       "name": "Clase 45",
       "date": "26 de noviembre, 2018",
       "description": "Resolvimos dudas para poder avanzar con los proyectos pendientes y empezamos a ver los temas de Mapa Interactivo",
