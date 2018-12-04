@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 47",
+      "date": "3 de diciembre, 2018",
+      "description": "Charlamos sobre la API de Google Maps. Practicamos lo aprendido en estos últimos días y resolvimos consultas.",
+      "summary": "https://docs.google.com/document/d/1XDLdU1iQZr6qv1-OCE5SIgEXWNM8xhh0eW27_E_BGd0/edit?usp=sharing",
+      "multimedia": null,
+      "resources": "https://drive.google.com/drive/folders/1RVJtt_3JZZmtaU45un-WQWeuRFvu9Zk2?usp=sharing",
+      "picture": null
+    },
+    {
       "name": "Clase 46",
       "date": "28 de noviembre, 2018",
       "description": "Pusimos código a todo lo que hablamos de requests HTTP. Aprendimos sobre fetch (y promesas), usamos postman y empezamos a conectarnos con un backend, donde incluso pispeamos como es la implementación de las rutas con un ejemplo de la vida real.",
