@@ -1,6 +1,15 @@
 {
   "lessons": [
     {
+      "name": "Clase 48",
+      "date": "5 de diciembre, 2018",
+      "description": "Hicimos una integración de contenidos con (casi) toodo lo que vimos hasta ahora",
+      "summary": "https://docs.google.com/document/d/1R_1GFflJ-6yXbkP4UUvS0z7p3SIXzUv4Py_f1ddHW8s/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1VGZNVF19m4Mizx4hGrpJKQQ3LUYX6mnG?usp=sharing",
+      "resources": "https://drive.google.com/drive/folders/18kCCZLMQfW3oUIV7U79oG7x3-P74FmD-?usp=sharing",
+      "picture": null
+    },
+    {
       "name": "Clase 47",
       "date": "3 de diciembre, 2018",
       "description": "Charlamos sobre la API de Google Maps. Practicamos lo aprendido en estos últimos días y resolvimos consultas.",
