@@ -1,11 +1,47 @@
 {
   "lessons": [
     {
-      "name": "Clases 49",
+      "name": "Clase 53",
+      "date": "14 de enero, 2019",
+      "description": "Nos reencontramos después de las vacaciones, vimos en qué está trabajando cada une y nos metimos a trabajar con Node.js",
+      "summary": "https://docs.google.com/document/d/1pBDQ__DlnG-bzaTudmGKxV2S-eEGNRE4rrsdUzzLhSc/edit?usp=sharing",
+      "multimedia": null,
+      "resources": null,
+      "picture": null
+    },
+    {
+      "name": "Clase 52",
+      "date": "19 de diciembre, 2018",
+      "description": "Continuamos con la actividad integradora, jugamos con El Chat de Nina® y le dimos la bienvenida a las vacaciones",
+      "summary": "https://docs.google.com/document/d/1WutAn5RAhxnD2-f0MEE2DvNMHnCirHHkjNUzsA9VadQ/edit?usp=sharing",
+      "multimedia": null,
+      "resources": "https://drive.google.com/drive/folders/1Wtm_QaVW3UXD_f7mf_pX3APzYqFiCsxF?usp=sharing",
+      "picture": null
+    },
+    {
+      "name": "Clase 51",
+      "date": "17 de diciembre, 2018",
+      "description": "Hicimos un proyecto integrador desde cero que nos permitió aplicar y vincular conocimientos",
+      "summary": "https://docs.google.com/document/d/1rSF0zs8oZbQXz6zaP3NG90mqL3Nch5HygNk4zpCfxbw/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1M4DV4RMQSMOOa3qfNvpDQSYPTeb09wDU?usp=sharing",
+      "resources": "https://drive.google.com/drive/folders/1UsUdA68WPbGPAHQ84ftfWdmRWmTZjwrt?usp=sharing",
+      "picture": null
+    },
+    {
+      "name": "Clase 50",
+      "date": "12 de diciembre, 2018",
+      "description": "Tuvimos una jornada de charlas donde compartimos un montón de ideas interesantes :)",
+      "summary": "https://docs.google.com/document/d/18SRgbkJsgj2X2lECWs_otyMTWyw1fjPb58hyw19hnxU/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1ACtTVlAvy1IaYKiHVxBC-4bMNkN08Qu9?usp=sharing",
+      "resources": null,
+      "picture": null
+    },
+    {
+      "name": "Clase 49",
       "date": "10 de diciembre, 2018",
       "description": "Reflexionamos sobre nuestras planificaciones y modos de organización y repasamos contenidos.",
       "summary": "https://docs.google.com/document/d/1smDVDWwslFxIzhZQocYd3DXjKi3-lDjWDvdzDbTHgaU/edit?usp=sharing",
-      "multimedia": null,
+      "multimedia": "https://drive.google.com/drive/folders/1GU6E48g_zF171HZfQ26yXlYzt9UcENqm?usp=sharing",
       "resources": null,
       "picture": null
     },
