@@ -1,13 +1,22 @@
 {
   "lessons": [
     {
+      "name": "Clase 54",
+      "date": "16 de enero, 2019",
+      "description": "Sobrevivimos en el ecéano para poder seguir aprendiendo sobre Node y Express",
+      "summary": "https://docs.google.com/document/d/1ds9AvsLS3x3Rno8M9w3ZrTA1Ru4LhCRMiI8nskTOmVw/edit?usp=sharing",
+      "multimedia": "https://drive.google.com/drive/folders/1df-lM2P92v8bDsEIr_mBgcV5sPTuTqHl?usp=sharing",
+      "resources": "https://drive.google.com/drive/folders/10GJd_DwffHrrAxiaqV6VvYfYBD6GuAGz?usp=sharing",
+      "picture": "/assets/lessons/54.jpg"
+    },
+    {
       "name": "Clase 53",
       "date": "14 de enero, 2019",
       "description": "Nos reencontramos después de las vacaciones, vimos en qué está trabajando cada une y nos metimos a trabajar con Node.js",
       "summary": "https://docs.google.com/document/d/1pBDQ__DlnG-bzaTudmGKxV2S-eEGNRE4rrsdUzzLhSc/edit?usp=sharing",
       "multimedia": null,
       "resources": null,
-      "picture": null
+      "picture": "/assets/lessons/53.jpg"
     },
     {
       "name": "Clase 52",
