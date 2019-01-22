@@ -1,6 +1,6 @@
 {
   "name": "acamica-dwfs-belgrano",
-  "version": "11.23.0",
+  "version": "11.24.0",
   "description": "acamica-dwfs-belgrano",
   "scripts": {
     "alias": "now alias --token $NOW_TOKEN",
