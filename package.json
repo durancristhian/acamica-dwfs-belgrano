@@ -29,7 +29,7 @@
     "replace-in-file": "^3.4.2",
     "serve": "^10.0.2",
     "stylelint": "^9.5.0",
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-standard": "^20.0.0"
   },
   "contributors": [
     {
